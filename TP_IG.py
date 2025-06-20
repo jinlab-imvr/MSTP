@@ -18,7 +18,6 @@ from tqdm import tqdm
 from difflib import get_close_matches
 
 from transformers import (
-    pipeline,
     AutoModelForImageTextToText,
     Qwen2_5_VLForConditionalGeneration,
     Gemma3ForConditionalGeneration,
@@ -61,37 +60,37 @@ class VLProcessor:
             if use_lora is not None:
                 if not os.path.exists(lora_path):
                     raise FileNotFoundError(f"Model path not found: {lora_path}")
-                if model_name == "InternVL3-8B-hf":
+                if model_name == "InternVL3-8B-hf" or model_name == "InternVL3-38B-hf":
                     from transformers import AutoModelForImageTextToText, AutoProcessor
                     base_model = AutoModelForImageTextToText.from_pretrained(
                         base_model_path, device_map=device, torch_dtype=torch.bfloat16
                     )
                     self.model = PeftModel.from_pretrained(base_model, lora_path)
                     self.processor = AutoProcessor.from_pretrained(base_model_path)
-                elif model_name == "Qwen2.5-VL-7B-Instruct":
+                elif model_name == "Qwen2.5-VL-7B-Instruct" or model_name == "Qwen2.5-VL-32B-Instruct":
                     from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
                     base_model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
                         base_model_path, device_map=device, torch_dtype=torch.bfloat16
                     )
                     self.model = PeftModel.from_pretrained(base_model, lora_path)
                     self.processor = AutoProcessor.from_pretrained(base_model_path)
-                elif model_name == "gemma-3-4b-it":
+                elif model_name == "gemma-3-4b-it" or model_name == "gemma-3-27b-it":
                     from transformers import Gemma3ForConditionalGeneration, AutoProcessor
                     base_model = Gemma3ForConditionalGeneration.from_pretrained(
                         base_model_path, device_map=device, torch_dtype=torch.bfloat16
-                    ).eval()
+                    )
                     self.model = PeftModel.from_pretrained(base_model, lora_path)
                     self.processor = AutoProcessor.from_pretrained(base_model_path)
                 else:
                     raise ValueError(f"Unsupported model name: {model_name}")
             else:
-                if model_name == "InternVL3-8B-hf":
+                if model_name == "InternVL3-8B-hf" or model_name == "InternVL3-38B-hf":
                     self.model = AutoModelForImageTextToText.from_pretrained(base_model_path, device_map=device, torch_dtype=torch.bfloat16)
                     self.processor = AutoProcessor.from_pretrained(base_model_path)
-                elif model_name == "Qwen2.5-VL-7B-Instruct":
+                elif model_name == "Qwen2.5-VL-7B-Instruct" or model_name == "Qwen2.5-VL-32B-Instruct":
                     self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(base_model_path, device_map=device, torch_dtype=torch.bfloat16)
                     self.processor = AutoProcessor.from_pretrained(base_model_path)
-                elif model_name == "gemma-3-4b-it":
+                elif model_name == "gemma-3-4b-it" or model_name == "gemma-3-27b-it":
                     self.model = Gemma3ForConditionalGeneration.from_pretrained(base_model_path, device_map=device, torch_dtype=torch.bfloat16).eval()
                     self.processor = AutoProcessor.from_pretrained(base_model_path)
         except Exception as e:
@@ -116,7 +115,7 @@ class VLProcessor:
         try:
             if not os.path.exists(image_path):
                 raise FileNotFoundError(f"Image path not found: {image_path}")
-            if self.model_name == "InternVL3-8B-hf":
+            if self.model_name == "InternVL3-8B-hf" or self.model_name == "InternVL3-38B-hf":
                 messages = [
                     {
                         "role": "user",
@@ -130,7 +129,7 @@ class VLProcessor:
 
                 generate_ids = self.model.generate(**inputs, max_new_tokens=50)
                 decoded_output = self.processor.decode(generate_ids[0, inputs["input_ids"].shape[1] :], skip_special_tokens=True)
-            elif self.model_name == "Qwen2.5-VL-7B-Instruct":
+            elif self.model_name == "Qwen2.5-VL-7B-Instruct" or self.model_name == "Qwen2.5-VL-32B-Instruct":
                 messages = [
                         {
                             "role": "user",
@@ -163,7 +162,7 @@ class VLProcessor:
                 decoded_output = self.processor.batch_decode(
                     generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
                 )[0]
-            elif self.model_name == "gemma-3-4b-it":
+            elif self.model_name == "gemma-3-4b-it" or self.model_name == "gemma-3-27b-it":
                 messages = [
                 {
                     "role": "system",
@@ -351,20 +350,6 @@ class Refiner:
             if closest_key:
                 return closest_key[0]
             return None
-# Function to parse command-line arguments
-def parse_args():
-    parser = argparse.ArgumentParser(description="Run image generation with configurable parameters.")
-    parser.add_argument("--cir", type=int, default=5, help="Number of iterations")
-    parser.add_argument("--time", type=int, default=1, help="Time parameter for chain paths")
-    parser.add_argument("--start", type=int, default=0, help="Start index for data slicing")
-    parser.add_argument("--end", type=int, default=500, help="Number of data samples to process")
-    parser.add_argument("--sd_model", type=str, default="large", choices=["large", "medium"], help="Stable Diffusion model type")
-    parser.add_argument("--mode", type=str, default="test", choices=["train", "test"], help="Mode: train or test dataset")
-    parser.add_argument("--model_name", type=str, default="Qwen2.5-VL-7B-Instruct", choices=["gemma-3-4b-it", "Qwen2.5-VL-7B-Instruct", "InternVL3-8B-hf"],
-                        help="Model name to use for processing")
-    parser.add_argument("--save_dir", type=str, default="DM/test", help="Directory to save results")
-    parser.add_argument("--restrain", action="store_true", help="Use restrain prompt (default: False). Set to True to use restrain prompt.")
-    return parser.parse_args()
 
 # Function to load data and set paths based on mode
 def load_data_and_paths(mode):
@@ -416,6 +401,22 @@ def format_shuffled_mcq(steps):
     random.shuffle(steps)
     formatted_text = ". ".join([f"{i+1}. {step}" for i, step in enumerate(steps)])
     return formatted_text
+    
+# Function to parse command-line arguments
+def parse_args():
+    parser = argparse.ArgumentParser(description="Run image generation with configurable parameters.")
+    parser.add_argument("--cir", type=int, default=5, help="Number of iterations")
+    parser.add_argument("--time", type=int, default=1, help="Time parameter for chain paths")
+    parser.add_argument("--start", type=int, default=0, help="Start index for data slicing")
+    parser.add_argument("--end", type=int, default=500, help="Number of data samples to process")
+    parser.add_argument("--sd_model", type=str, default="large", choices=["large", "medium"], help="Stable Diffusion model type")
+    parser.add_argument("--mode", type=str, default="test", choices=["train", "test"], help="Mode: train or test dataset")
+    parser.add_argument("--model_name", type=str, default="Qwen2.5-VL-7B-Instruct", choices=["gemma-3-4b-it", "gemma-3-27b-it", "Qwen2.5-VL-7B-Instruct", "Qwen2.5-VL-32B-Instruct", "InternVL3-8B-hf", "InternVL3-38B-hf"],
+                        help="Model name to use for processing")
+    parser.add_argument("--save_dir", type=str, default="DM/test", help="Directory to save results")
+    parser.add_argument("--restrain", action="store_true", help="Use restrain prompt (default: False). Set to True to use restrain prompt.")
+    return parser.parse_args()
+
 # Main execution
 if __name__ == "__main__":
     args = parse_args()
@@ -443,10 +444,10 @@ if __name__ == "__main__":
         os.makedirs(save_dir)
     if SD_MODEL == "large":
         model_path = "pretrained/stable-diffusion-3.5-large" # "stabilityai/stable-diffusion-3.5-large" 
-        weights_path = "SD_grasp/SD3.5_large/diffusion_pytorch_model.safetensors" # ioky/SD3.5_large
+        weights_path = "pretrained/SD3.5_large/diffusion_pytorch_model.safetensors" # ioky/SD3.5_large
     elif SD_MODEL == "medium":
         model_path = "pretrained/stable-diffusion-3.5-medium" # "stabilityai/stable-diffusion-3.5-medium"
-        weights_path = "SD_grasp/SD3.5_medium/diffusion_pytorch_model.safetensors" # ioky/SD3.5_medium
+        weights_path = "pretrained/SD3.5_medium/diffusion_pytorch_model.safetensors" # ioky/SD3.5_medium
     generator = ImageGenerator(model_path=model_path, weights_path=weights_path, device="balanced")
     chain1_path = f"saves/{MODEL_NAME}/{MODEL_NAME}_chain1_{TIME}s/lora/sft"
     base_model_path = f"pretrained/{MODEL_NAME}"
