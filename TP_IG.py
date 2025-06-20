@@ -449,7 +449,7 @@ if __name__ == "__main__":
         model_path = "pretrained/stable-diffusion-3.5-medium" # "stabilityai/stable-diffusion-3.5-medium"
         weights_path = "pretrained/SD3.5_medium/diffusion_pytorch_model.safetensors" # ioky/SD3.5_medium
     generator = ImageGenerator(model_path=model_path, weights_path=weights_path, device="balanced")
-    chain1_path = f"LoRA/{MODEL_NAME}/{MODEL_NAME}_chain1_{TIME}s/lora/sft"
+    chain1_path = f"saves/{MODEL_NAME}/{MODEL_NAME}_chain1_{TIME}s/lora/sft"
     base_model_path = f"pretrained/{MODEL_NAME}"
     vl_processor = VLProcessor(
         model_name=MODEL_NAME,
@@ -458,9 +458,9 @@ if __name__ == "__main__":
         device="auto",
         use_lora=True
     )
-    chain2_path = f"LoRA/{MODEL_NAME}/{MODEL_NAME}_chain2_{TIME}s/lora/sft"
+    chain2_path = f"saves/{MODEL_NAME}/{MODEL_NAME}_chain2_{TIME}s/lora/sft"
     vl_processor2 = VLProcessor(model_name=MODEL_NAME, lora_path=chain2_path, base_model_path=base_model_path, device="auto", use_lora=True)
-    chain3_path = f"LoRA/{MODEL_NAME}/{MODEL_NAME}_chain3_{TIME}s/lora/sft"
+    chain3_path = f"saves/{MODEL_NAME}/{MODEL_NAME}_chain3_{TIME}s/lora/sft"
     vl_processor3 = VLProcessor(model_name=MODEL_NAME, lora_path=chain3_path, base_model_path=base_model_path, device="auto", use_lora=True)
     for i in range(len(data)):
         ori_prompt = data[i]["conversations"][0]["value"].replace("<image>", "")

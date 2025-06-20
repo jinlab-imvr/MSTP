@@ -16,7 +16,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02515.jpg"
+            "GraSP/test/frames/CASE041/02515.jpg"
         ],
         "current_ps": "developing the space of Retzius, performing suction",
         "stage": "Change"
@@ -38,7 +38,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01488.jpg"
+            "GraSP/test/frames/CASE047/01488.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -60,7 +60,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11996.jpg"
+            "GraSP/test/frames/CASE050/11996.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -82,7 +82,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13364.jpg"
+            "GraSP/test/frames/CASE050/13364.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -104,7 +104,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/02190.jpg"
+            "GraSP/test/frames/CASE050/02190.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -126,7 +126,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03407.jpg"
+            "GraSP/test/frames/CASE050/03407.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -148,7 +148,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05234.jpg"
+            "GraSP/test/frames/CASE047/05234.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, holding the prostate",
         "stage": "Change"
@@ -170,7 +170,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/01979.jpg"
+            "GraSP/test/frames/CASE050/01979.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -192,7 +192,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01527.jpg"
+            "GraSP/test/frames/CASE041/01527.jpg"
         ],
         "current_ps": "developing the space of Retzius, cutting the suture or tissue",
         "stage": "Change"
@@ -214,7 +214,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10469.jpg"
+            "GraSP/test/frames/CASE050/10469.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -236,7 +236,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11591.jpg"
+            "GraSP/test/frames/CASE050/11591.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -258,7 +258,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07583.jpg"
+            "GraSP/test/frames/CASE041/07583.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -280,7 +280,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07934.jpg"
+            "GraSP/test/frames/CASE041/07934.jpg"
         ],
         "current_ps": "bladder neck reconstruction, cutting the tissue between the prostate and the urethra",
         "stage": "Change"
@@ -302,7 +302,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04325.jpg"
+            "GraSP/test/frames/CASE047/04325.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, performing suction",
         "stage": "Change"
@@ -324,7 +324,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10886.jpg"
+            "GraSP/test/frames/CASE050/10886.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, performing suction",
         "stage": "Change"
@@ -346,7 +346,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10421.jpg"
+            "GraSP/test/frames/CASE050/10421.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -368,7 +368,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/00901.jpg"
+            "GraSP/test/frames/CASE050/00901.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, identification and dissection of the obturator nerve and vessel path, and cutting of the obturator lymph nodes",
         "stage": "Change"
@@ -390,7 +390,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12658.jpg"
+            "GraSP/test/frames/CASE050/12658.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -412,7 +412,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08221.jpg"
+            "GraSP/test/frames/CASE050/08221.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -434,7 +434,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01825.jpg"
+            "GraSP/test/frames/CASE051/01825.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -456,7 +456,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13673.jpg"
+            "GraSP/test/frames/CASE050/13673.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -478,7 +478,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11940.jpg"
+            "GraSP/test/frames/CASE050/11940.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, performing suction",
         "stage": "Change"
@@ -500,7 +500,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02134.jpg"
+            "GraSP/test/frames/CASE051/02134.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -522,7 +522,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03725.jpg"
+            "GraSP/test/frames/CASE041/03725.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -544,7 +544,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07360.jpg"
+            "GraSP/test/frames/CASE041/07360.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -566,7 +566,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04818.jpg"
+            "GraSP/test/frames/CASE047/04818.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -588,7 +588,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07623.jpg"
+            "GraSP/test/frames/CASE041/07623.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -610,7 +610,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00380.jpg"
+            "GraSP/test/frames/CASE051/00380.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, ligation of the dorsal venous complex",
         "stage": "Change"
@@ -632,7 +632,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06622.jpg"
+            "GraSP/test/frames/CASE050/06622.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -654,7 +654,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08075.jpg"
+            "GraSP/test/frames/CASE050/08075.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -676,7 +676,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05037.jpg"
+            "GraSP/test/frames/CASE047/05037.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -698,7 +698,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06556.jpg"
+            "GraSP/test/frames/CASE041/06556.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -720,7 +720,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/06204.jpg"
+            "GraSP/test/frames/CASE047/06204.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -742,7 +742,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03188.jpg"
+            "GraSP/test/frames/CASE050/03188.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -764,7 +764,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11118.jpg"
+            "GraSP/test/frames/CASE050/11118.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -786,7 +786,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12785.jpg"
+            "GraSP/test/frames/CASE050/12785.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -808,7 +808,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/06302.jpg"
+            "GraSP/test/frames/CASE047/06302.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -830,7 +830,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06122.jpg"
+            "GraSP/test/frames/CASE041/06122.jpg"
         ],
         "current_ps": "prostatic pedicle control, performing suction",
         "stage": "Change"
@@ -852,7 +852,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07563.jpg"
+            "GraSP/test/frames/CASE041/07563.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -874,7 +874,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03787.jpg"
+            "GraSP/test/frames/CASE047/03787.jpg"
         ],
         "current_ps": "bladder neck identification and transection, performing suction",
         "stage": "Change"
@@ -896,7 +896,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12395.jpg"
+            "GraSP/test/frames/CASE050/12395.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -918,7 +918,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/02147.jpg"
+            "GraSP/test/frames/CASE047/02147.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -940,7 +940,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/02054.jpg"
+            "GraSP/test/frames/CASE047/02054.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, inserting the lymph nodes into retrieval bags",
         "stage": "Change"
@@ -962,7 +962,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07660.jpg"
+            "GraSP/test/frames/CASE041/07660.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -984,7 +984,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05652.jpg"
+            "GraSP/test/frames/CASE041/05652.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -1006,7 +1006,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04742.jpg"
+            "GraSP/test/frames/CASE047/04742.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1028,7 +1028,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04545.jpg"
+            "GraSP/test/frames/CASE047/04545.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -1050,7 +1050,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07701.jpg"
+            "GraSP/test/frames/CASE041/07701.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -1072,7 +1072,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00067.jpg"
+            "GraSP/test/frames/CASE051/00067.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1094,7 +1094,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02405.jpg"
+            "GraSP/test/frames/CASE051/02405.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -1116,7 +1116,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01221.jpg"
+            "GraSP/test/frames/CASE047/01221.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, inserting the lymph nodes into retrieval bags",
         "stage": "Change"
@@ -1138,7 +1138,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07959.jpg"
+            "GraSP/test/frames/CASE041/07959.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -1160,7 +1160,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12793.jpg"
+            "GraSP/test/frames/CASE050/12793.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -1182,7 +1182,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/05488.jpg"
+            "GraSP/test/frames/CASE050/05488.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1204,7 +1204,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/04213.jpg"
+            "GraSP/test/frames/CASE041/04213.jpg"
         ],
         "current_ps": "seminal vesicle dissection, performing suction",
         "stage": "Change"
@@ -1226,7 +1226,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11066.jpg"
+            "GraSP/test/frames/CASE050/11066.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1248,7 +1248,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01870.jpg"
+            "GraSP/test/frames/CASE041/01870.jpg"
         ],
         "current_ps": "developing the space of Retzius, prevesical dissection",
         "stage": "Change"
@@ -1270,7 +1270,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/02412.jpg"
+            "GraSP/test/frames/CASE050/02412.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1292,7 +1292,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03241.jpg"
+            "GraSP/test/frames/CASE047/03241.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, cutting the suture or tissue",
         "stage": "Change"
@@ -1314,7 +1314,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05638.jpg"
+            "GraSP/test/frames/CASE047/05638.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -1336,7 +1336,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06174.jpg"
+            "GraSP/test/frames/CASE041/06174.jpg"
         ],
         "current_ps": "prostatic pedicle control, performing suction",
         "stage": "Change"
@@ -1358,7 +1358,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02570.jpg"
+            "GraSP/test/frames/CASE041/02570.jpg"
         ],
         "current_ps": "developing the space of Retzius, tying the suture",
         "stage": "Change"
@@ -1380,7 +1380,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13699.jpg"
+            "GraSP/test/frames/CASE050/13699.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -1402,7 +1402,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11580.jpg"
+            "GraSP/test/frames/CASE050/11580.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -1424,7 +1424,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07657.jpg"
+            "GraSP/test/frames/CASE041/07657.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -1446,7 +1446,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06363.jpg"
+            "GraSP/test/frames/CASE050/06363.jpg"
         ],
         "current_ps": "developing the space of Retzius, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -1468,7 +1468,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12470.jpg"
+            "GraSP/test/frames/CASE050/12470.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1490,7 +1490,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13340.jpg"
+            "GraSP/test/frames/CASE050/13340.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -1512,7 +1512,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12966.jpg"
+            "GraSP/test/frames/CASE050/12966.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1534,7 +1534,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07364.jpg"
+            "GraSP/test/frames/CASE041/07364.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -1556,7 +1556,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03439.jpg"
+            "GraSP/test/frames/CASE050/03439.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1578,7 +1578,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/02276.jpg"
+            "GraSP/test/frames/CASE050/02276.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, inserting the lymph nodes into retrieval bags",
         "stage": "Change"
@@ -1600,7 +1600,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01597.jpg"
+            "GraSP/test/frames/CASE051/01597.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -1622,7 +1622,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01440.jpg"
+            "GraSP/test/frames/CASE041/01440.jpg"
         ],
         "current_ps": "developing the space of Retzius, cutting the suture or tissue",
         "stage": "Change"
@@ -1644,7 +1644,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06912.jpg"
+            "GraSP/test/frames/CASE041/06912.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -1666,7 +1666,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/00925.jpg"
+            "GraSP/test/frames/CASE047/00925.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -1688,7 +1688,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10459.jpg"
+            "GraSP/test/frames/CASE050/10459.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1710,7 +1710,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06787.jpg"
+            "GraSP/test/frames/CASE041/06787.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1732,7 +1732,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05636.jpg"
+            "GraSP/test/frames/CASE047/05636.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -1754,7 +1754,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07566.jpg"
+            "GraSP/test/frames/CASE041/07566.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -1776,7 +1776,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/08159.jpg"
+            "GraSP/test/frames/CASE041/08159.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -1798,7 +1798,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03581.jpg"
+            "GraSP/test/frames/CASE041/03581.jpg"
         ],
         "current_ps": "bladder neck identification and transection, performing suction",
         "stage": "Change"
@@ -1820,7 +1820,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/01290.jpg"
+            "GraSP/test/frames/CASE050/01290.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1842,7 +1842,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00637.jpg"
+            "GraSP/test/frames/CASE051/00637.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -1864,7 +1864,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07007.jpg"
+            "GraSP/test/frames/CASE041/07007.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1886,7 +1886,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12550.jpg"
+            "GraSP/test/frames/CASE050/12550.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -1908,7 +1908,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10744.jpg"
+            "GraSP/test/frames/CASE050/10744.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -1930,7 +1930,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11633.jpg"
+            "GraSP/test/frames/CASE050/11633.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, cutting the suture or tissue",
         "stage": "Change"
@@ -1952,7 +1952,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01073.jpg"
+            "GraSP/test/frames/CASE051/01073.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -1974,7 +1974,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06563.jpg"
+            "GraSP/test/frames/CASE050/06563.jpg"
         ],
         "current_ps": "developing the space of Retzius, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -1996,7 +1996,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07334.jpg"
+            "GraSP/test/frames/CASE041/07334.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -2018,7 +2018,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07424.jpg"
+            "GraSP/test/frames/CASE041/07424.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -2040,7 +2040,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/04843.jpg"
+            "GraSP/test/frames/CASE041/04843.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -2062,7 +2062,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/02700.jpg"
+            "GraSP/test/frames/CASE047/02700.jpg"
         ],
         "current_ps": "developing the space of Retzius, prevesical dissection",
         "stage": "Change"
@@ -2084,7 +2084,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05108.jpg"
+            "GraSP/test/frames/CASE041/05108.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2106,7 +2106,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10562.jpg"
+            "GraSP/test/frames/CASE050/10562.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2128,7 +2128,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12953.jpg"
+            "GraSP/test/frames/CASE050/12953.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2150,7 +2150,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/04728.jpg"
+            "GraSP/test/frames/CASE050/04728.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2172,7 +2172,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07539.jpg"
+            "GraSP/test/frames/CASE041/07539.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2194,7 +2194,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05411.jpg"
+            "GraSP/test/frames/CASE047/05411.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, cutting the tissue between the prostate and the urethra",
         "stage": "Change"
@@ -2216,7 +2216,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13380.jpg"
+            "GraSP/test/frames/CASE050/13380.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2238,7 +2238,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00405.jpg"
+            "GraSP/test/frames/CASE051/00405.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, pulling the suture",
         "stage": "Change"
@@ -2260,7 +2260,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04220.jpg"
+            "GraSP/test/frames/CASE047/04220.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -2282,7 +2282,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03077.jpg"
+            "GraSP/test/frames/CASE047/03077.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2304,7 +2304,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03381.jpg"
+            "GraSP/test/frames/CASE050/03381.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, identification and dissection of the obturator nerve and vessel path, and cutting of the obturator lymph nodes",
         "stage": "Change"
@@ -2326,7 +2326,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10417.jpg"
+            "GraSP/test/frames/CASE050/10417.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -2348,7 +2348,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00935.jpg"
+            "GraSP/test/frames/CASE041/00935.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2370,7 +2370,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00149.jpg"
+            "GraSP/test/frames/CASE051/00149.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, tying the suture",
         "stage": "Change"
@@ -2392,7 +2392,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02168.jpg"
+            "GraSP/test/frames/CASE041/02168.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2414,7 +2414,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02691.jpg"
+            "GraSP/test/frames/CASE041/02691.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2436,7 +2436,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00177.jpg"
+            "GraSP/test/frames/CASE051/00177.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, pulling the suture",
         "stage": "Change"
@@ -2458,7 +2458,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08360.jpg"
+            "GraSP/test/frames/CASE050/08360.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -2480,7 +2480,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08223.jpg"
+            "GraSP/test/frames/CASE050/08223.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2502,7 +2502,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/04834.jpg"
+            "GraSP/test/frames/CASE041/04834.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -2524,7 +2524,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/09787.jpg"
+            "GraSP/test/frames/CASE050/09787.jpg"
         ],
         "current_ps": "seminal vesicle dissection, performing suction",
         "stage": "Change"
@@ -2546,7 +2546,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01955.jpg"
+            "GraSP/test/frames/CASE051/01955.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -2568,7 +2568,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/08021.jpg"
+            "GraSP/test/frames/CASE041/08021.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -2590,7 +2590,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03554.jpg"
+            "GraSP/test/frames/CASE041/03554.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -2612,7 +2612,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/06319.jpg"
+            "GraSP/test/frames/CASE047/06319.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2634,7 +2634,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11070.jpg"
+            "GraSP/test/frames/CASE050/11070.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2656,7 +2656,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/06316.jpg"
+            "GraSP/test/frames/CASE047/06316.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2678,7 +2678,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/06166.jpg"
+            "GraSP/test/frames/CASE047/06166.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -2700,7 +2700,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05436.jpg"
+            "GraSP/test/frames/CASE047/05436.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, inserting the prostate into a retrieval bag",
         "stage": "Change"
@@ -2722,7 +2722,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05746.jpg"
+            "GraSP/test/frames/CASE041/05746.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -2744,7 +2744,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02565.jpg"
+            "GraSP/test/frames/CASE041/02565.jpg"
         ],
         "current_ps": "developing the space of Retzius, tying the suture",
         "stage": "Change"
@@ -2766,7 +2766,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03173.jpg"
+            "GraSP/test/frames/CASE050/03173.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -2788,7 +2788,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/07006.jpg"
+            "GraSP/test/frames/CASE050/07006.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, pulling the suture",
         "stage": "Change"
@@ -2810,7 +2810,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05557.jpg"
+            "GraSP/test/frames/CASE041/05557.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2832,7 +2832,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/04716.jpg"
+            "GraSP/test/frames/CASE050/04716.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2854,7 +2854,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01531.jpg"
+            "GraSP/test/frames/CASE041/01531.jpg"
         ],
         "current_ps": "developing the space of Retzius, cutting the suture or tissue",
         "stage": "Change"
@@ -2876,7 +2876,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07415.jpg"
+            "GraSP/test/frames/CASE041/07415.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -2898,7 +2898,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06357.jpg"
+            "GraSP/test/frames/CASE050/06357.jpg"
         ],
         "current_ps": "developing the space of Retzius, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -2920,7 +2920,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00937.jpg"
+            "GraSP/test/frames/CASE041/00937.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -2942,7 +2942,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04661.jpg"
+            "GraSP/test/frames/CASE047/04661.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -2964,7 +2964,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/02896.jpg"
+            "GraSP/test/frames/CASE050/02896.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -2986,7 +2986,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05737.jpg"
+            "GraSP/test/frames/CASE047/05737.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -3008,7 +3008,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01138.jpg"
+            "GraSP/test/frames/CASE047/01138.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3030,7 +3030,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07782.jpg"
+            "GraSP/test/frames/CASE041/07782.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -3052,7 +3052,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05707.jpg"
+            "GraSP/test/frames/CASE047/05707.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -3074,7 +3074,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01430.jpg"
+            "GraSP/test/frames/CASE041/01430.jpg"
         ],
         "current_ps": "developing the space of Retzius, cutting the suture or tissue",
         "stage": "Change"
@@ -3096,7 +3096,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03729.jpg"
+            "GraSP/test/frames/CASE041/03729.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -3118,7 +3118,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00480.jpg"
+            "GraSP/test/frames/CASE041/00480.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -3140,7 +3140,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/08164.jpg"
+            "GraSP/test/frames/CASE041/08164.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -3162,7 +3162,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01614.jpg"
+            "GraSP/test/frames/CASE047/01614.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -3184,7 +3184,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04781.jpg"
+            "GraSP/test/frames/CASE047/04781.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -3206,7 +3206,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06654.jpg"
+            "GraSP/test/frames/CASE050/06654.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, pulling the suture",
         "stage": "Change"
@@ -3228,7 +3228,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12951.jpg"
+            "GraSP/test/frames/CASE050/12951.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3250,7 +3250,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01637.jpg"
+            "GraSP/test/frames/CASE047/01637.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3272,7 +3272,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07198.jpg"
+            "GraSP/test/frames/CASE041/07198.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3294,7 +3294,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06905.jpg"
+            "GraSP/test/frames/CASE041/06905.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -3316,7 +3316,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11780.jpg"
+            "GraSP/test/frames/CASE050/11780.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3338,7 +3338,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01089.jpg"
+            "GraSP/test/frames/CASE047/01089.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, identification and dissection of the obturator nerve and vessel path, and cutting of the obturator lymph nodes",
         "stage": "Change"
@@ -3360,7 +3360,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10448.jpg"
+            "GraSP/test/frames/CASE050/10448.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -3382,7 +3382,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06582.jpg"
+            "GraSP/test/frames/CASE041/06582.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -3404,7 +3404,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05661.jpg"
+            "GraSP/test/frames/CASE047/05661.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -3426,7 +3426,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/05515.jpg"
+            "GraSP/test/frames/CASE050/05515.jpg"
         ],
         "current_ps": "developing the space of Retzius, performing suction",
         "stage": "Change"
@@ -3448,7 +3448,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03451.jpg"
+            "GraSP/test/frames/CASE050/03451.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3470,7 +3470,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04602.jpg"
+            "GraSP/test/frames/CASE047/04602.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3492,7 +3492,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05004.jpg"
+            "GraSP/test/frames/CASE041/05004.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -3514,7 +3514,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13040.jpg"
+            "GraSP/test/frames/CASE050/13040.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -3536,7 +3536,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03559.jpg"
+            "GraSP/test/frames/CASE050/03559.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, inserting the lymph nodes into retrieval bags",
         "stage": "Change"
@@ -3558,7 +3558,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03079.jpg"
+            "GraSP/test/frames/CASE047/03079.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3580,7 +3580,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/05506.jpg"
+            "GraSP/test/frames/CASE050/05506.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3602,7 +3602,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13537.jpg"
+            "GraSP/test/frames/CASE050/13537.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3624,7 +3624,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01499.jpg"
+            "GraSP/test/frames/CASE047/01499.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -3646,7 +3646,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07073.jpg"
+            "GraSP/test/frames/CASE041/07073.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -3668,7 +3668,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04532.jpg"
+            "GraSP/test/frames/CASE047/04532.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -3690,7 +3690,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05591.jpg"
+            "GraSP/test/frames/CASE047/05591.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3712,7 +3712,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10987.jpg"
+            "GraSP/test/frames/CASE050/10987.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -3734,7 +3734,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02127.jpg"
+            "GraSP/test/frames/CASE041/02127.jpg"
         ],
         "current_ps": "developing the space of Retzius, prostate dissection up to the levator ani",
         "stage": "Change"
@@ -3756,7 +3756,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05767.jpg"
+            "GraSP/test/frames/CASE041/05767.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -3778,7 +3778,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10270.jpg"
+            "GraSP/test/frames/CASE050/10270.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3800,7 +3800,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/06354.jpg"
+            "GraSP/test/frames/CASE047/06354.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -3822,7 +3822,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10683.jpg"
+            "GraSP/test/frames/CASE050/10683.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -3844,7 +3844,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10549.jpg"
+            "GraSP/test/frames/CASE050/10549.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -3866,7 +3866,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01201.jpg"
+            "GraSP/test/frames/CASE041/01201.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3888,7 +3888,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01856.jpg"
+            "GraSP/test/frames/CASE047/01856.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3910,7 +3910,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05138.jpg"
+            "GraSP/test/frames/CASE047/05138.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -3932,7 +3932,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01627.jpg"
+            "GraSP/test/frames/CASE051/01627.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -3954,7 +3954,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07809.jpg"
+            "GraSP/test/frames/CASE041/07809.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -3976,7 +3976,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02876.jpg"
+            "GraSP/test/frames/CASE041/02876.jpg"
         ],
         "current_ps": "developing the space of Retzius, prostate dissection up to the levator ani",
         "stage": "Change"
@@ -3998,7 +3998,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12298.jpg"
+            "GraSP/test/frames/CASE050/12298.jpg"
         ],
         "current_ps": "bladder neck reconstruction, performing suction",
         "stage": "Change"
@@ -4020,7 +4020,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01822.jpg"
+            "GraSP/test/frames/CASE051/01822.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -4042,7 +4042,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/02010.jpg"
+            "GraSP/test/frames/CASE047/02010.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -4064,7 +4064,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07214.jpg"
+            "GraSP/test/frames/CASE041/07214.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -4086,7 +4086,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00982.jpg"
+            "GraSP/test/frames/CASE041/00982.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, inserting the lymph nodes into retrieval bags",
         "stage": "Change"
@@ -4108,7 +4108,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10963.jpg"
+            "GraSP/test/frames/CASE050/10963.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -4130,7 +4130,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04317.jpg"
+            "GraSP/test/frames/CASE047/04317.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -4152,7 +4152,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01606.jpg"
+            "GraSP/test/frames/CASE051/01606.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -4174,7 +4174,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04775.jpg"
+            "GraSP/test/frames/CASE047/04775.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -4196,7 +4196,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01885.jpg"
+            "GraSP/test/frames/CASE051/01885.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -4218,7 +4218,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03810.jpg"
+            "GraSP/test/frames/CASE047/03810.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -4240,7 +4240,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07103.jpg"
+            "GraSP/test/frames/CASE041/07103.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -4262,7 +4262,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05747.jpg"
+            "GraSP/test/frames/CASE041/05747.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -4284,7 +4284,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/04214.jpg"
+            "GraSP/test/frames/CASE041/04214.jpg"
         ],
         "current_ps": "seminal vesicle dissection, performing suction",
         "stage": "Change"
@@ -4306,7 +4306,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05174.jpg"
+            "GraSP/test/frames/CASE047/05174.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -4328,7 +4328,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01850.jpg"
+            "GraSP/test/frames/CASE047/01850.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -4350,7 +4350,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/02914.jpg"
+            "GraSP/test/frames/CASE050/02914.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -4372,7 +4372,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01546.jpg"
+            "GraSP/test/frames/CASE041/01546.jpg"
         ],
         "current_ps": "developing the space of Retzius, cutting the suture or tissue",
         "stage": "Change"
@@ -4394,7 +4394,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00708.jpg"
+            "GraSP/test/frames/CASE051/00708.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -4416,7 +4416,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00120.jpg"
+            "GraSP/test/frames/CASE051/00120.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, ligation of the dorsal venous complex",
         "stage": "Change"
@@ -4438,7 +4438,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00992.jpg"
+            "GraSP/test/frames/CASE041/00992.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, inserting the lymph nodes into retrieval bags",
         "stage": "Change"
@@ -4460,7 +4460,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/07993.jpg"
+            "GraSP/test/frames/CASE050/07993.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -4482,7 +4482,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02297.jpg"
+            "GraSP/test/frames/CASE051/02297.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -4504,7 +4504,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11544.jpg"
+            "GraSP/test/frames/CASE050/11544.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -4526,7 +4526,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06862.jpg"
+            "GraSP/test/frames/CASE050/06862.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, pulling the suture",
         "stage": "Change"
@@ -4548,7 +4548,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00136.jpg"
+            "GraSP/test/frames/CASE051/00136.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, tying the suture",
         "stage": "Change"
@@ -4570,7 +4570,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05008.jpg"
+            "GraSP/test/frames/CASE041/05008.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -4592,7 +4592,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06694.jpg"
+            "GraSP/test/frames/CASE050/06694.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, tying the suture",
         "stage": "Change"
@@ -4614,7 +4614,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/02289.jpg"
+            "GraSP/test/frames/CASE050/02289.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, inserting the lymph nodes into retrieval bags",
         "stage": "Change"
@@ -4636,7 +4636,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08090.jpg"
+            "GraSP/test/frames/CASE050/08090.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -4658,7 +4658,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12652.jpg"
+            "GraSP/test/frames/CASE050/12652.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -4680,7 +4680,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10687.jpg"
+            "GraSP/test/frames/CASE050/10687.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -4702,7 +4702,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/05341.jpg"
+            "GraSP/test/frames/CASE050/05341.jpg"
         ],
         "current_ps": "developing the space of Retzius, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -4724,7 +4724,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/05429.jpg"
+            "GraSP/test/frames/CASE050/05429.jpg"
         ],
         "current_ps": "developing the space of Retzius, performing suction",
         "stage": "Change"
@@ -4746,7 +4746,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03731.jpg"
+            "GraSP/test/frames/CASE041/03731.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -4768,7 +4768,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/02910.jpg"
+            "GraSP/test/frames/CASE050/02910.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -4790,7 +4790,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06369.jpg"
+            "GraSP/test/frames/CASE050/06369.jpg"
         ],
         "current_ps": "developing the space of Retzius, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -4812,7 +4812,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03211.jpg"
+            "GraSP/test/frames/CASE047/03211.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, tying the suture",
         "stage": "Change"
@@ -4834,7 +4834,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07834.jpg"
+            "GraSP/test/frames/CASE041/07834.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -4856,7 +4856,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/08046.jpg"
+            "GraSP/test/frames/CASE041/08046.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -4878,7 +4878,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04731.jpg"
+            "GraSP/test/frames/CASE047/04731.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -4900,7 +4900,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03071.jpg"
+            "GraSP/test/frames/CASE050/03071.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, identification and dissection of the obturator nerve and vessel path, and cutting of the obturator lymph nodes",
         "stage": "Change"
@@ -4922,7 +4922,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04790.jpg"
+            "GraSP/test/frames/CASE047/04790.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -4944,7 +4944,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00093.jpg"
+            "GraSP/test/frames/CASE051/00093.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, ligation of the dorsal venous complex",
         "stage": "Change"
@@ -4966,7 +4966,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/00388.jpg"
+            "GraSP/test/frames/CASE050/00388.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -4988,7 +4988,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01193.jpg"
+            "GraSP/test/frames/CASE041/01193.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5010,7 +5010,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04727.jpg"
+            "GraSP/test/frames/CASE047/04727.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5032,7 +5032,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05932.jpg"
+            "GraSP/test/frames/CASE041/05932.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -5054,7 +5054,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07248.jpg"
+            "GraSP/test/frames/CASE041/07248.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -5076,7 +5076,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/00944.jpg"
+            "GraSP/test/frames/CASE047/00944.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -5098,7 +5098,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04336.jpg"
+            "GraSP/test/frames/CASE047/04336.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, performing suction",
         "stage": "Change"
@@ -5120,7 +5120,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/09585.jpg"
+            "GraSP/test/frames/CASE050/09585.jpg"
         ],
         "current_ps": "seminal vesicle dissection, performing suction",
         "stage": "Change"
@@ -5142,7 +5142,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01874.jpg"
+            "GraSP/test/frames/CASE051/01874.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -5164,7 +5164,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01439.jpg"
+            "GraSP/test/frames/CASE041/01439.jpg"
         ],
         "current_ps": "developing the space of Retzius, cutting the suture or tissue",
         "stage": "Change"
@@ -5186,7 +5186,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/00386.jpg"
+            "GraSP/test/frames/CASE050/00386.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -5208,7 +5208,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03385.jpg"
+            "GraSP/test/frames/CASE041/03385.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5230,7 +5230,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08121.jpg"
+            "GraSP/test/frames/CASE050/08121.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5252,7 +5252,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03073.jpg"
+            "GraSP/test/frames/CASE047/03073.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5274,7 +5274,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12765.jpg"
+            "GraSP/test/frames/CASE050/12765.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5296,7 +5296,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10271.jpg"
+            "GraSP/test/frames/CASE050/10271.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5318,7 +5318,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02005.jpg"
+            "GraSP/test/frames/CASE051/02005.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -5340,7 +5340,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06363.jpg"
+            "GraSP/test/frames/CASE041/06363.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, holding the prostate",
         "stage": "Change"
@@ -5362,7 +5362,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10277.jpg"
+            "GraSP/test/frames/CASE050/10277.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5384,7 +5384,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08183.jpg"
+            "GraSP/test/frames/CASE050/08183.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5406,7 +5406,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03120.jpg"
+            "GraSP/test/frames/CASE041/03120.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5428,7 +5428,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03174.jpg"
+            "GraSP/test/frames/CASE047/03174.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, tying the suture",
         "stage": "Change"
@@ -5450,7 +5450,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06011.jpg"
+            "GraSP/test/frames/CASE041/06011.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5472,7 +5472,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02095.jpg"
+            "GraSP/test/frames/CASE051/02095.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -5494,7 +5494,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02486.jpg"
+            "GraSP/test/frames/CASE041/02486.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5516,7 +5516,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11212.jpg"
+            "GraSP/test/frames/CASE050/11212.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -5538,7 +5538,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05981.jpg"
+            "GraSP/test/frames/CASE041/05981.jpg"
         ],
         "current_ps": "prostatic pedicle control, performing suction",
         "stage": "Change"
@@ -5560,7 +5560,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03967.jpg"
+            "GraSP/test/frames/CASE041/03967.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -5582,7 +5582,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12662.jpg"
+            "GraSP/test/frames/CASE050/12662.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -5604,7 +5604,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03909.jpg"
+            "GraSP/test/frames/CASE047/03909.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -5626,7 +5626,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10961.jpg"
+            "GraSP/test/frames/CASE050/10961.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -5648,7 +5648,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01475.jpg"
+            "GraSP/test/frames/CASE047/01475.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -5670,7 +5670,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/07711.jpg"
+            "GraSP/test/frames/CASE050/07711.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5692,7 +5692,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/06158.jpg"
+            "GraSP/test/frames/CASE047/06158.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -5714,7 +5714,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00184.jpg"
+            "GraSP/test/frames/CASE051/00184.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, pulling the suture",
         "stage": "Change"
@@ -5736,7 +5736,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11604.jpg"
+            "GraSP/test/frames/CASE050/11604.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5758,7 +5758,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03061.jpg"
+            "GraSP/test/frames/CASE041/03061.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, tying the suture",
         "stage": "Change"
@@ -5780,7 +5780,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00401.jpg"
+            "GraSP/test/frames/CASE051/00401.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, tying the suture",
         "stage": "Change"
@@ -5802,7 +5802,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/07393.jpg"
+            "GraSP/test/frames/CASE050/07393.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -5824,7 +5824,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06588.jpg"
+            "GraSP/test/frames/CASE041/06588.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -5846,7 +5846,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02471.jpg"
+            "GraSP/test/frames/CASE041/02471.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -5868,7 +5868,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01110.jpg"
+            "GraSP/test/frames/CASE047/01110.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, identification and dissection of the obturator nerve and vessel path, and cutting of the obturator lymph nodes",
         "stage": "Change"
@@ -5890,7 +5890,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01866.jpg"
+            "GraSP/test/frames/CASE051/01866.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -5912,7 +5912,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10242.jpg"
+            "GraSP/test/frames/CASE050/10242.jpg"
         ],
         "current_ps": "prostatic pedicle control, performing suction",
         "stage": "Change"
@@ -5934,7 +5934,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04627.jpg"
+            "GraSP/test/frames/CASE047/04627.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -5956,7 +5956,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02292.jpg"
+            "GraSP/test/frames/CASE051/02292.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -5978,7 +5978,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08240.jpg"
+            "GraSP/test/frames/CASE050/08240.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6000,7 +6000,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/08213.jpg"
+            "GraSP/test/frames/CASE041/08213.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6022,7 +6022,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00892.jpg"
+            "GraSP/test/frames/CASE041/00892.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -6044,7 +6044,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02107.jpg"
+            "GraSP/test/frames/CASE051/02107.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -6066,7 +6066,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13432.jpg"
+            "GraSP/test/frames/CASE050/13432.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -6088,7 +6088,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13182.jpg"
+            "GraSP/test/frames/CASE050/13182.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -6110,7 +6110,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01889.jpg"
+            "GraSP/test/frames/CASE051/01889.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -6132,7 +6132,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13535.jpg"
+            "GraSP/test/frames/CASE050/13535.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6154,7 +6154,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/06208.jpg"
+            "GraSP/test/frames/CASE047/06208.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -6176,7 +6176,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06293.jpg"
+            "GraSP/test/frames/CASE041/06293.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, holding the prostate",
         "stage": "Change"
@@ -6198,7 +6198,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03577.jpg"
+            "GraSP/test/frames/CASE047/03577.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6220,7 +6220,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10765.jpg"
+            "GraSP/test/frames/CASE050/10765.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6242,7 +6242,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08212.jpg"
+            "GraSP/test/frames/CASE050/08212.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -6264,7 +6264,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13368.jpg"
+            "GraSP/test/frames/CASE050/13368.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6286,7 +6286,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05596.jpg"
+            "GraSP/test/frames/CASE047/05596.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6308,7 +6308,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05683.jpg"
+            "GraSP/test/frames/CASE041/05683.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -6330,7 +6330,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/04837.jpg"
+            "GraSP/test/frames/CASE041/04837.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -6352,7 +6352,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12272.jpg"
+            "GraSP/test/frames/CASE050/12272.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6374,7 +6374,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10913.jpg"
+            "GraSP/test/frames/CASE050/10913.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -6396,7 +6396,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01933.jpg"
+            "GraSP/test/frames/CASE047/01933.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -6418,7 +6418,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03199.jpg"
+            "GraSP/test/frames/CASE041/03199.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, ligation of the dorsal venous complex",
         "stage": "Change"
@@ -6440,7 +6440,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01810.jpg"
+            "GraSP/test/frames/CASE051/01810.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6462,7 +6462,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12461.jpg"
+            "GraSP/test/frames/CASE050/12461.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6484,7 +6484,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05988.jpg"
+            "GraSP/test/frames/CASE041/05988.jpg"
         ],
         "current_ps": "prostatic pedicle control, performing suction",
         "stage": "Change"
@@ -6506,7 +6506,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05975.jpg"
+            "GraSP/test/frames/CASE047/05975.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -6528,7 +6528,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11357.jpg"
+            "GraSP/test/frames/CASE050/11357.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -6550,7 +6550,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05744.jpg"
+            "GraSP/test/frames/CASE041/05744.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -6572,7 +6572,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03823.jpg"
+            "GraSP/test/frames/CASE047/03823.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -6594,7 +6594,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/05381.jpg"
+            "GraSP/test/frames/CASE050/05381.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6616,7 +6616,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06657.jpg"
+            "GraSP/test/frames/CASE050/06657.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, pulling the suture",
         "stage": "Change"
@@ -6638,7 +6638,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00567.jpg"
+            "GraSP/test/frames/CASE041/00567.jpg"
         ],
         "current_ps": "developing the space of Retzius, identification and dissection of the obturator nerve and vessel path, and cutting of the obturator lymph nodes",
         "stage": "Change"
@@ -6660,7 +6660,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/07618.jpg"
+            "GraSP/test/frames/CASE050/07618.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -6682,7 +6682,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05918.jpg"
+            "GraSP/test/frames/CASE041/05918.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -6704,7 +6704,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07586.jpg"
+            "GraSP/test/frames/CASE041/07586.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -6726,7 +6726,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/00893.jpg"
+            "GraSP/test/frames/CASE050/00893.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, identification and dissection of the obturator nerve and vessel path, and cutting of the obturator lymph nodes",
         "stage": "Change"
@@ -6748,7 +6748,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11661.jpg"
+            "GraSP/test/frames/CASE050/11661.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6770,7 +6770,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03923.jpg"
+            "GraSP/test/frames/CASE047/03923.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -6792,7 +6792,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06543.jpg"
+            "GraSP/test/frames/CASE050/06543.jpg"
         ],
         "current_ps": "developing the space of Retzius, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -6814,7 +6814,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02470.jpg"
+            "GraSP/test/frames/CASE041/02470.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6836,7 +6836,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/02022.jpg"
+            "GraSP/test/frames/CASE050/02022.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, performing suction",
         "stage": "Change"
@@ -6858,7 +6858,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07939.jpg"
+            "GraSP/test/frames/CASE041/07939.jpg"
         ],
         "current_ps": "bladder neck reconstruction, cutting the tissue between the prostate and the urethra",
         "stage": "Change"
@@ -6880,7 +6880,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/00978.jpg"
+            "GraSP/test/frames/CASE050/00978.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6902,7 +6902,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/05368.jpg"
+            "GraSP/test/frames/CASE050/05368.jpg"
         ],
         "current_ps": "developing the space of Retzius, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -6924,7 +6924,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11643.jpg"
+            "GraSP/test/frames/CASE050/11643.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6946,7 +6946,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10462.jpg"
+            "GraSP/test/frames/CASE050/10462.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6968,7 +6968,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13099.jpg"
+            "GraSP/test/frames/CASE050/13099.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -6990,7 +6990,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13546.jpg"
+            "GraSP/test/frames/CASE050/13546.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7012,7 +7012,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12475.jpg"
+            "GraSP/test/frames/CASE050/12475.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7034,7 +7034,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01198.jpg"
+            "GraSP/test/frames/CASE041/01198.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7056,7 +7056,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03399.jpg"
+            "GraSP/test/frames/CASE050/03399.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -7078,7 +7078,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11937.jpg"
+            "GraSP/test/frames/CASE050/11937.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, performing suction",
         "stage": "Change"
@@ -7100,7 +7100,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11356.jpg"
+            "GraSP/test/frames/CASE050/11356.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -7122,7 +7122,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03508.jpg"
+            "GraSP/test/frames/CASE041/03508.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -7144,7 +7144,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07738.jpg"
+            "GraSP/test/frames/CASE041/07738.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -7166,7 +7166,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05447.jpg"
+            "GraSP/test/frames/CASE047/05447.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, inserting the prostate into a retrieval bag",
         "stage": "Change"
@@ -7188,7 +7188,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03547.jpg"
+            "GraSP/test/frames/CASE041/03547.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7210,7 +7210,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/04222.jpg"
+            "GraSP/test/frames/CASE041/04222.jpg"
         ],
         "current_ps": "seminal vesicle dissection, performing suction",
         "stage": "Change"
@@ -7232,7 +7232,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/09760.jpg"
+            "GraSP/test/frames/CASE050/09760.jpg"
         ],
         "current_ps": "seminal vesicle dissection, performing suction",
         "stage": "Change"
@@ -7254,7 +7254,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00453.jpg"
+            "GraSP/test/frames/CASE051/00453.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, cutting the suture or tissue",
         "stage": "Change"
@@ -7276,7 +7276,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05659.jpg"
+            "GraSP/test/frames/CASE047/05659.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -7298,7 +7298,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03180.jpg"
+            "GraSP/test/frames/CASE041/03180.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, ligation of the dorsal venous complex",
         "stage": "Change"
@@ -7320,7 +7320,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07015.jpg"
+            "GraSP/test/frames/CASE041/07015.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7342,7 +7342,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/06325.jpg"
+            "GraSP/test/frames/CASE047/06325.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -7364,7 +7364,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/05091.jpg"
+            "GraSP/test/frames/CASE050/05091.jpg"
         ],
         "current_ps": "developing the space of Retzius, performing suction",
         "stage": "Change"
@@ -7386,7 +7386,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/02399.jpg"
+            "GraSP/test/frames/CASE050/02399.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7408,7 +7408,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/06109.jpg"
+            "GraSP/test/frames/CASE047/06109.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7430,7 +7430,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/04122.jpg"
+            "GraSP/test/frames/CASE041/04122.jpg"
         ],
         "current_ps": "seminal vesicle dissection, controlling the vascular pedicle",
         "stage": "Change"
@@ -7452,7 +7452,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03197.jpg"
+            "GraSP/test/frames/CASE041/03197.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, ligation of the dorsal venous complex",
         "stage": "Change"
@@ -7474,7 +7474,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01952.jpg"
+            "GraSP/test/frames/CASE041/01952.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7496,7 +7496,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02164.jpg"
+            "GraSP/test/frames/CASE041/02164.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7518,7 +7518,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01848.jpg"
+            "GraSP/test/frames/CASE047/01848.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7540,7 +7540,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11623.jpg"
+            "GraSP/test/frames/CASE050/11623.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, cutting the suture or tissue",
         "stage": "Change"
@@ -7562,7 +7562,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06021.jpg"
+            "GraSP/test/frames/CASE041/06021.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7584,7 +7584,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05026.jpg"
+            "GraSP/test/frames/CASE041/05026.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -7606,7 +7606,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00312.jpg"
+            "GraSP/test/frames/CASE051/00312.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7628,7 +7628,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02137.jpg"
+            "GraSP/test/frames/CASE051/02137.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7650,7 +7650,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03786.jpg"
+            "GraSP/test/frames/CASE047/03786.jpg"
         ],
         "current_ps": "bladder neck identification and transection, performing suction",
         "stage": "Change"
@@ -7672,7 +7672,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06030.jpg"
+            "GraSP/test/frames/CASE041/06030.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7694,7 +7694,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05615.jpg"
+            "GraSP/test/frames/CASE041/05615.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -7716,7 +7716,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06871.jpg"
+            "GraSP/test/frames/CASE050/06871.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, pulling the suture",
         "stage": "Change"
@@ -7738,7 +7738,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/09558.jpg"
+            "GraSP/test/frames/CASE050/09558.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -7760,7 +7760,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06275.jpg"
+            "GraSP/test/frames/CASE041/06275.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, cutting the tissue between the prostate and the urethra",
         "stage": "Change"
@@ -7782,7 +7782,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06638.jpg"
+            "GraSP/test/frames/CASE050/06638.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7804,7 +7804,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05173.jpg"
+            "GraSP/test/frames/CASE041/05173.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -7826,7 +7826,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06269.jpg"
+            "GraSP/test/frames/CASE041/06269.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, cutting the tissue between the prostate and the urethra",
         "stage": "Change"
@@ -7848,7 +7848,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01602.jpg"
+            "GraSP/test/frames/CASE041/01602.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7870,7 +7870,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06733.jpg"
+            "GraSP/test/frames/CASE050/06733.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7892,7 +7892,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05604.jpg"
+            "GraSP/test/frames/CASE047/05604.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7914,7 +7914,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06340.jpg"
+            "GraSP/test/frames/CASE041/06340.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, cutting the tissue between the prostate and the urethra",
         "stage": "Change"
@@ -7936,7 +7936,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07432.jpg"
+            "GraSP/test/frames/CASE041/07432.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -7958,7 +7958,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07538.jpg"
+            "GraSP/test/frames/CASE041/07538.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -7980,7 +7980,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10560.jpg"
+            "GraSP/test/frames/CASE050/10560.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8002,7 +8002,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08117.jpg"
+            "GraSP/test/frames/CASE050/08117.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8024,7 +8024,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/04206.jpg"
+            "GraSP/test/frames/CASE041/04206.jpg"
         ],
         "current_ps": "seminal vesicle dissection, performing suction",
         "stage": "Change"
@@ -8046,7 +8046,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05820.jpg"
+            "GraSP/test/frames/CASE047/05820.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -8068,7 +8068,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11775.jpg"
+            "GraSP/test/frames/CASE050/11775.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8090,7 +8090,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04215.jpg"
+            "GraSP/test/frames/CASE047/04215.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -8112,7 +8112,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01521.jpg"
+            "GraSP/test/frames/CASE041/01521.jpg"
         ],
         "current_ps": "developing the space of Retzius, cutting the suture or tissue",
         "stage": "Change"
@@ -8134,7 +8134,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07889.jpg"
+            "GraSP/test/frames/CASE041/07889.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -8156,7 +8156,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02225.jpg"
+            "GraSP/test/frames/CASE051/02225.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -8178,7 +8178,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01620.jpg"
+            "GraSP/test/frames/CASE047/01620.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -8200,7 +8200,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12366.jpg"
+            "GraSP/test/frames/CASE050/12366.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8222,7 +8222,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07294.jpg"
+            "GraSP/test/frames/CASE041/07294.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -8244,7 +8244,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10769.jpg"
+            "GraSP/test/frames/CASE050/10769.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8266,7 +8266,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04670.jpg"
+            "GraSP/test/frames/CASE047/04670.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -8288,7 +8288,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02609.jpg"
+            "GraSP/test/frames/CASE041/02609.jpg"
         ],
         "current_ps": "developing the space of Retzius, tying the suture",
         "stage": "Change"
@@ -8310,7 +8310,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03398.jpg"
+            "GraSP/test/frames/CASE050/03398.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -8332,7 +8332,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11990.jpg"
+            "GraSP/test/frames/CASE050/11990.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8354,7 +8354,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00423.jpg"
+            "GraSP/test/frames/CASE051/00423.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, pulling the suture",
         "stage": "Change"
@@ -8376,7 +8376,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05068.jpg"
+            "GraSP/test/frames/CASE041/05068.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8398,7 +8398,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12594.jpg"
+            "GraSP/test/frames/CASE050/12594.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -8420,7 +8420,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10113.jpg"
+            "GraSP/test/frames/CASE050/10113.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8442,7 +8442,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10573.jpg"
+            "GraSP/test/frames/CASE050/10573.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8464,7 +8464,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00469.jpg"
+            "GraSP/test/frames/CASE041/00469.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -8486,7 +8486,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08386.jpg"
+            "GraSP/test/frames/CASE050/08386.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -8508,7 +8508,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05605.jpg"
+            "GraSP/test/frames/CASE047/05605.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8530,7 +8530,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12616.jpg"
+            "GraSP/test/frames/CASE050/12616.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -8552,7 +8552,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/04717.jpg"
+            "GraSP/test/frames/CASE050/04717.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8574,7 +8574,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04229.jpg"
+            "GraSP/test/frames/CASE047/04229.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -8596,7 +8596,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/09782.jpg"
+            "GraSP/test/frames/CASE050/09782.jpg"
         ],
         "current_ps": "seminal vesicle dissection, performing suction",
         "stage": "Change"
@@ -8618,7 +8618,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05494.jpg"
+            "GraSP/test/frames/CASE041/05494.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -8640,7 +8640,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05971.jpg"
+            "GraSP/test/frames/CASE047/05971.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -8662,7 +8662,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00231.jpg"
+            "GraSP/test/frames/CASE051/00231.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, cutting the suture or tissue",
         "stage": "Change"
@@ -8684,7 +8684,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01090.jpg"
+            "GraSP/test/frames/CASE047/01090.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, identification and dissection of the obturator nerve and vessel path, and cutting of the obturator lymph nodes",
         "stage": "Change"
@@ -8706,7 +8706,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11718.jpg"
+            "GraSP/test/frames/CASE050/11718.jpg"
         ],
         "current_ps": "severing of the prostate from the urethra, performing suction",
         "stage": "Change"
@@ -8728,7 +8728,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12280.jpg"
+            "GraSP/test/frames/CASE050/12280.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8750,7 +8750,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/00001.jpg"
+            "GraSP/test/frames/CASE050/00001.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, cutting the suture or tissue",
         "stage": "Change"
@@ -8772,7 +8772,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06696.jpg"
+            "GraSP/test/frames/CASE050/06696.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, tying the suture",
         "stage": "Change"
@@ -8794,7 +8794,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07237.jpg"
+            "GraSP/test/frames/CASE041/07237.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -8816,7 +8816,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07064.jpg"
+            "GraSP/test/frames/CASE041/07064.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -8838,7 +8838,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02256.jpg"
+            "GraSP/test/frames/CASE051/02256.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8860,7 +8860,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06601.jpg"
+            "GraSP/test/frames/CASE041/06601.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -8882,7 +8882,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08229.jpg"
+            "GraSP/test/frames/CASE050/08229.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8904,7 +8904,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06628.jpg"
+            "GraSP/test/frames/CASE041/06628.jpg"
         ],
         "current_ps": "bladder neck reconstruction, cutting the suture or tissue",
         "stage": "Change"
@@ -8926,7 +8926,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05755.jpg"
+            "GraSP/test/frames/CASE041/05755.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -8948,7 +8948,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/05475.jpg"
+            "GraSP/test/frames/CASE050/05475.jpg"
         ],
         "current_ps": "developing the space of Retzius, performing suction",
         "stage": "Change"
@@ -8970,7 +8970,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/02009.jpg"
+            "GraSP/test/frames/CASE047/02009.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -8992,7 +8992,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10853.jpg"
+            "GraSP/test/frames/CASE050/10853.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -9014,7 +9014,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06946.jpg"
+            "GraSP/test/frames/CASE041/06946.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -9036,7 +9036,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03452.jpg"
+            "GraSP/test/frames/CASE050/03452.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9058,7 +9058,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/00413.jpg"
+            "GraSP/test/frames/CASE047/00413.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -9080,7 +9080,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07529.jpg"
+            "GraSP/test/frames/CASE041/07529.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9102,7 +9102,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/05383.jpg"
+            "GraSP/test/frames/CASE050/05383.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9124,7 +9124,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13367.jpg"
+            "GraSP/test/frames/CASE050/13367.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -9146,7 +9146,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01958.jpg"
+            "GraSP/test/frames/CASE041/01958.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9168,7 +9168,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12463.jpg"
+            "GraSP/test/frames/CASE050/12463.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9190,7 +9190,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05474.jpg"
+            "GraSP/test/frames/CASE041/05474.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -9212,7 +9212,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12456.jpg"
+            "GraSP/test/frames/CASE050/12456.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9234,7 +9234,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/08218.jpg"
+            "GraSP/test/frames/CASE041/08218.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9256,7 +9256,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13211.jpg"
+            "GraSP/test/frames/CASE050/13211.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9278,7 +9278,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/06134.jpg"
+            "GraSP/test/frames/CASE047/06134.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the urethra",
         "stage": "Change"
@@ -9300,7 +9300,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08064.jpg"
+            "GraSP/test/frames/CASE050/08064.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -9322,7 +9322,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01604.jpg"
+            "GraSP/test/frames/CASE041/01604.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9344,7 +9344,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05947.jpg"
+            "GraSP/test/frames/CASE047/05947.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9366,7 +9366,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00161.jpg"
+            "GraSP/test/frames/CASE041/00161.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9388,7 +9388,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/01259.jpg"
+            "GraSP/test/frames/CASE050/01259.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -9410,7 +9410,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01857.jpg"
+            "GraSP/test/frames/CASE047/01857.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9432,7 +9432,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/03964.jpg"
+            "GraSP/test/frames/CASE041/03964.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -9454,7 +9454,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12289.jpg"
+            "GraSP/test/frames/CASE050/12289.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9476,7 +9476,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04628.jpg"
+            "GraSP/test/frames/CASE047/04628.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -9498,7 +9498,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00100.jpg"
+            "GraSP/test/frames/CASE051/00100.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, ligation of the dorsal venous complex",
         "stage": "Change"
@@ -9520,7 +9520,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04741.jpg"
+            "GraSP/test/frames/CASE047/04741.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9542,7 +9542,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00484.jpg"
+            "GraSP/test/frames/CASE041/00484.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -9564,7 +9564,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05143.jpg"
+            "GraSP/test/frames/CASE041/05143.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -9586,7 +9586,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05908.jpg"
+            "GraSP/test/frames/CASE041/05908.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -9608,7 +9608,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/08147.jpg"
+            "GraSP/test/frames/CASE050/08147.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -9630,7 +9630,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02048.jpg"
+            "GraSP/test/frames/CASE051/02048.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9652,7 +9652,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/08174.jpg"
+            "GraSP/test/frames/CASE041/08174.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -9674,7 +9674,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07806.jpg"
+            "GraSP/test/frames/CASE041/07806.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -9696,7 +9696,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02051.jpg"
+            "GraSP/test/frames/CASE041/02051.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9718,7 +9718,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/02519.jpg"
+            "GraSP/test/frames/CASE047/02519.jpg"
         ],
         "current_ps": "developing the space of Retzius, cutting the suture or tissue",
         "stage": "Change"
@@ -9740,7 +9740,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00176.jpg"
+            "GraSP/test/frames/CASE051/00176.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, pulling the suture",
         "stage": "Change"
@@ -9762,7 +9762,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03784.jpg"
+            "GraSP/test/frames/CASE047/03784.jpg"
         ],
         "current_ps": "bladder neck identification and transection, performing suction",
         "stage": "Change"
@@ -9784,7 +9784,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04230.jpg"
+            "GraSP/test/frames/CASE047/04230.jpg"
         ],
         "current_ps": "seminal vesicle dissection, seminal vesicle dissection",
         "stage": "Change"
@@ -9806,7 +9806,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06752.jpg"
+            "GraSP/test/frames/CASE050/06752.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9828,7 +9828,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06414.jpg"
+            "GraSP/test/frames/CASE050/06414.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9850,7 +9850,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07332.jpg"
+            "GraSP/test/frames/CASE041/07332.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -9872,7 +9872,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03542.jpg"
+            "GraSP/test/frames/CASE047/03542.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -9894,7 +9894,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10868.jpg"
+            "GraSP/test/frames/CASE050/10868.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -9916,7 +9916,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/06145.jpg"
+            "GraSP/test/frames/CASE047/06145.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -9938,7 +9938,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03282.jpg"
+            "GraSP/test/frames/CASE047/03282.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, ligation of the dorsal venous complex",
         "stage": "Change"
@@ -9960,7 +9960,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11184.jpg"
+            "GraSP/test/frames/CASE050/11184.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -9982,7 +9982,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/11598.jpg"
+            "GraSP/test/frames/CASE050/11598.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10004,7 +10004,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/02277.jpg"
+            "GraSP/test/frames/CASE050/02277.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, inserting the lymph nodes into retrieval bags",
         "stage": "Change"
@@ -10026,7 +10026,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00475.jpg"
+            "GraSP/test/frames/CASE041/00475.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -10048,7 +10048,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05912.jpg"
+            "GraSP/test/frames/CASE041/05912.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -10070,7 +10070,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03127.jpg"
+            "GraSP/test/frames/CASE047/03127.jpg"
         ],
         "current_ps": "ligation of the deep dorsal venous complex, ligation of the dorsal venous complex",
         "stage": "Change"
@@ -10092,7 +10092,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00899.jpg"
+            "GraSP/test/frames/CASE041/00899.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -10114,7 +10114,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02423.jpg"
+            "GraSP/test/frames/CASE051/02423.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10136,7 +10136,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12791.jpg"
+            "GraSP/test/frames/CASE050/12791.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -10158,7 +10158,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04814.jpg"
+            "GraSP/test/frames/CASE047/04814.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10180,7 +10180,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/06212.jpg"
+            "GraSP/test/frames/CASE041/06212.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -10202,7 +10202,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00306.jpg"
+            "GraSP/test/frames/CASE051/00306.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10224,7 +10224,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/00524.jpg"
+            "GraSP/test/frames/CASE051/00524.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10246,7 +10246,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01473.jpg"
+            "GraSP/test/frames/CASE041/01473.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10268,7 +10268,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/01765.jpg"
+            "GraSP/test/frames/CASE051/01765.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -10290,7 +10290,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02136.jpg"
+            "GraSP/test/frames/CASE041/02136.jpg"
         ],
         "current_ps": "developing the space of Retzius, prostate dissection up to the levator ani",
         "stage": "Change"
@@ -10312,7 +10312,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02131.jpg"
+            "GraSP/test/frames/CASE051/02131.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10334,7 +10334,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12394.jpg"
+            "GraSP/test/frames/CASE050/12394.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -10356,7 +10356,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00029.jpg"
+            "GraSP/test/frames/CASE041/00029.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10378,7 +10378,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07049.jpg"
+            "GraSP/test/frames/CASE041/07049.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -10400,7 +10400,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01845.jpg"
+            "GraSP/test/frames/CASE047/01845.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10422,7 +10422,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00494.jpg"
+            "GraSP/test/frames/CASE041/00494.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -10444,7 +10444,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE051/02002.jpg"
+            "GraSP/test/frames/CASE051/02002.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -10466,7 +10466,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10972.jpg"
+            "GraSP/test/frames/CASE050/10972.jpg"
         ],
         "current_ps": "prostatic pedicle control, controlling the vascular pedicle",
         "stage": "Change"
@@ -10488,7 +10488,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/08020.jpg"
+            "GraSP/test/frames/CASE041/08020.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -10510,7 +10510,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/00492.jpg"
+            "GraSP/test/frames/CASE041/00492.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, identification and dissection of the iliac vein and artery",
         "stage": "Change"
@@ -10532,7 +10532,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/07180.jpg"
+            "GraSP/test/frames/CASE050/07180.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10554,7 +10554,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/05071.jpg"
+            "GraSP/test/frames/CASE041/05071.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10576,7 +10576,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/06731.jpg"
+            "GraSP/test/frames/CASE050/06731.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10598,7 +10598,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/12964.jpg"
+            "GraSP/test/frames/CASE050/12964.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10620,7 +10620,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05782.jpg"
+            "GraSP/test/frames/CASE047/05782.jpg"
         ],
         "current_ps": "bladder neck reconstruction, pulling the suture",
         "stage": "Change"
@@ -10642,7 +10642,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01202.jpg"
+            "GraSP/test/frames/CASE047/01202.jpg"
         ],
         "current_ps": "left pelvic isolated lymphadenectomy, inserting the lymph nodes into retrieval bags",
         "stage": "Change"
@@ -10664,7 +10664,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/05449.jpg"
+            "GraSP/test/frames/CASE050/05449.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10686,7 +10686,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/13533.jpg"
+            "GraSP/test/frames/CASE050/13533.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10708,7 +10708,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/07222.jpg"
+            "GraSP/test/frames/CASE041/07222.jpg"
         ],
         "current_ps": "bladder neck reconstruction, passing a suture through the bladder neck",
         "stage": "Change"
@@ -10730,7 +10730,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03055.jpg"
+            "GraSP/test/frames/CASE050/03055.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, identification and dissection of the obturator nerve and vessel path, and cutting of the obturator lymph nodes",
         "stage": "Change"
@@ -10752,7 +10752,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04481.jpg"
+            "GraSP/test/frames/CASE047/04481.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -10774,7 +10774,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/02689.jpg"
+            "GraSP/test/frames/CASE041/02689.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10796,7 +10796,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/01917.jpg"
+            "GraSP/test/frames/CASE047/01917.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -10818,7 +10818,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/01544.jpg"
+            "GraSP/test/frames/CASE041/01544.jpg"
         ],
         "current_ps": "developing the space of Retzius, cutting the suture or tissue",
         "stage": "Change"
@@ -10840,7 +10840,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/03852.jpg"
+            "GraSP/test/frames/CASE047/03852.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10862,7 +10862,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE041/08207.jpg"
+            "GraSP/test/frames/CASE041/08207.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10884,7 +10884,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/03186.jpg"
+            "GraSP/test/frames/CASE050/03186.jpg"
         ],
         "current_ps": "right pelvic isolated lymphadenectomy, dissection and cutting of the external iliac vein's lymph node",
         "stage": "Change"
@@ -10906,7 +10906,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10422.jpg"
+            "GraSP/test/frames/CASE050/10422.jpg"
         ],
         "current_ps": "development of the plane between the prostate and rectum, dissection of Denonvilliers' fascia",
         "stage": "Change"
@@ -10928,7 +10928,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/05019.jpg"
+            "GraSP/test/frames/CASE047/05019.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
@@ -10950,7 +10950,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/07621.jpg"
+            "GraSP/test/frames/CASE050/07621.jpg"
         ],
         "current_ps": "bladder neck identification and transection, cutting the suture or tissue",
         "stage": "Change"
@@ -10972,7 +10972,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE050/10085.jpg"
+            "GraSP/test/frames/CASE050/10085.jpg"
         ],
         "current_ps": "idle, idle",
         "stage": "Change"
@@ -10994,7 +10994,7 @@
             }
         ],
         "images": [
-            "/scratch/e1374390/GraSP/test/frames/CASE047/04784.jpg"
+            "GraSP/test/frames/CASE047/04784.jpg"
         ],
         "current_ps": "prostatic pedicle control, cutting the suture or tissue",
         "stage": "Change"
