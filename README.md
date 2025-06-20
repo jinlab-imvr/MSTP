@@ -14,12 +14,13 @@ conda activate mstp
 # Install dependencies
 pip install wheel
 pip install -e ".[torch,metrics]" --no-build-isolation
-pip install git+https://github.com/huggingface/transformers
-pip install -r requirements.txt
 
-git clone https://github.com/QwenLM/Qwen-VL.git
-cd Qwen-VL
-pip install -e .
+# If you want to use Qwen2.5-VL series model, install transformers==4.51
+pip install transformers==4.51
+# If you want to use InternVL3 and gemma-3 series model, install transformers==4.52
+pip install transformers==4.52
+
+pip install -r requirements.txt
 ```
 ## Dataset
 The dataset provided in the article can be downloaded for verification purposes.
@@ -35,14 +36,14 @@ Select an SD model for incremental generation. Download to the "pretrained" dire
 - [stabilityai/stable-diffusion-3.5-medium](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium)
 
 ## Download Pretrained SD Weights
-Download the weights of the pre-trained SD model that we have trained.
+Download the weights of the pre-trained SD model that we have trained. Download to the "pretrained" directory.
 - [ioky/SD3.5_large](https://huggingface.co/ioky/SD3.5_large)
 - [ioky/SD3.5_medium](https://huggingface.co/ioky/SD3.5_medium)
 
 
 
 ## Download Pretrained Base VL Model
-Select an VL model for multi-scale temporal prediction
+Select an VL model for multi-scale temporal prediction. Download to the "pretrained" directory.
 
 - [Qwen/Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)
 - [OpenGVLab/InternVL3-8B-hf](https://huggingface.co/OpenGVLab/InternVL3-8B-hf)
@@ -59,11 +60,11 @@ Download the LoRA weights of the pre-trained VL model that we have trained. Down
 ```bash
 cd MSTP/LLaMA-Factory
 # use Qwen2.5-VL-7B-Instruct
-python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --sd_model large --mode test --model_name Qwen2.5-VL-7B-Instruct
+python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name Qwen2.5-VL-7B-Instruct
 # use gemma-3-4b-it
-python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --sd_model large --mode test --model_name gemma-3-4b-it
+python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name gemma-3-4b-it
 # use InternVL3-8B-hf
-python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --sd_model large --mode test --model_name InternVL3-8B-hf
+python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name InternVL3-8B-hf
 
 ```
 ## SD Model Training
