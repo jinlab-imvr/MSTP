@@ -60,11 +60,11 @@ Download the LoRA weights of the pre-trained VL model that we have trained. Down
 ```bash
 cd MSTP/LLaMA-Factory
 # use Qwen2.5-VL-7B-Instruct
-python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --sd_model large --mode test --model_name Qwen2.5-VL-7B-Instruct
+python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name Qwen2.5-VL-7B-Instruct
 # use gemma-3-4b-it
-python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --sd_model large --mode test --model_name gemma-3-4b-it
+python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name gemma-3-4b-it
 # use InternVL3-8B-hf
-python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --sd_model large --mode test --model_name InternVL3-8B-hf
+python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name InternVL3-8B-hf
 
 ```
 ## SD Model Training
