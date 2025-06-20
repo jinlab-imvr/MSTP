@@ -14,7 +14,9 @@ conda activate mstp
 # Install dependencies
 pip install wheel
 pip install -e ".[torch,metrics]" --no-build-isolation
-pip install git+https://github.com/huggingface/transformers
+
+pip install transformers==4.51 # Qwen2.5-VL series model
+pip install transformers==4.52 # InternVL3 and gemma-3 series model
 pip install -r requirements.txt
 
 git clone https://github.com/QwenLM/Qwen-VL.git
