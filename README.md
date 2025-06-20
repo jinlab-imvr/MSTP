@@ -15,9 +15,9 @@ conda activate mstp
 pip install wheel
 pip install -e ".[torch,metrics]" --no-build-isolation
 
-# If you want to use Qwen2.5-VL series model
+# If you want to use Qwen2.5-VL series model, install transformers==4.51
 pip install transformers==4.51
-# If you want to use InternVL3 and gemma-3 series model
+# If you want to use InternVL3 and gemma-3 series model, install transformers==4.52
 pip install transformers==4.52
 pip install -r requirements.txt
 
