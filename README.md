@@ -43,7 +43,7 @@ Download the weights of the pre-trained SD model that we have trained. Download 
 
 
 ## Download Pretrained Base VL Model
-Select an VL model for multi-scale temporal prediction
+Select an VL model for multi-scale temporal prediction. Download to the "pretrained" directory.
 
 - [Qwen/Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)
 - [OpenGVLab/InternVL3-8B-hf](https://huggingface.co/OpenGVLab/InternVL3-8B-hf)
