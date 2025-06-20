@@ -12,6 +12,7 @@ conda create -n mstp python=3.10 -y
 conda activate mstp
 
 # Install dependencies
+pip install wheel
 pip install -e ".[torch,metrics]" --no-build-isolation
 pip install -r requirements.txt
 
