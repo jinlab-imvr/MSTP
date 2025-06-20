@@ -21,10 +21,6 @@ pip install transformers==4.51
 pip install transformers==4.52
 
 pip install -r requirements.txt
-
-git clone https://github.com/QwenLM/Qwen-VL.git
-cd Qwen-VL
-pip install -e .
 ```
 ## Dataset
 The dataset provided in the article can be downloaded for verification purposes.
