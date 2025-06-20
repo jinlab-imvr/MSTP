@@ -30,12 +30,12 @@ If you want to customize the dataset, you can refer to the [instructions](LLaMA-
 
 
 ## Download Pretrained Base SD Model
-Select an SD model for incremental generation
+Select an SD model for incremental generation. Download to the "pretrained" directory.
 - [stabilityai/stable-diffusion-3.5-large](https://huggingface.co/stabilityai/stable-diffusion-3.5-large)
 - [stabilityai/stable-diffusion-3.5-medium](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium)
 
 ## Download Pretrained SD Weights
-Download the weights of the pre-trained SD model that we have trained
+Download the weights of the pre-trained SD model that we have trained.
 - [ioky/SD3.5_large](https://huggingface.co/ioky/SD3.5_large)
 - [ioky/SD3.5_medium](https://huggingface.co/ioky/SD3.5_medium)
 
@@ -49,7 +49,7 @@ Select an VL model for multi-scale temporal prediction
 - [google/gemma-3-4b-it](https://huggingface.co/google/gemma-3-4b-it)
 
 ## Download Pretrained LoRA Weights of VL Model
-Download the LoRA weights of the pre-trained VL model that we have trained
+Download the LoRA weights of the pre-trained VL model that we have trained. Download to the "LoRA" directory.
 
 - [ioky/Qwen2.5-VL-7B-Instruct](https://huggingface.co/ioky/Qwen2.5-VL-7B-Instruct)
 - [ioky/InternVL3-8B-hf](https://huggingface.co/ioky/InternVL3-8B-hf)
