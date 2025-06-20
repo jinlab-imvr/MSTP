@@ -19,6 +19,7 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 pip install transformers==4.51
 # If you want to use InternVL3 and gemma-3 series model, install transformers==4.52
 pip install transformers==4.52
+
 pip install -r requirements.txt
 
 git clone https://github.com/QwenLM/Qwen-VL.git
