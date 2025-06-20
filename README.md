@@ -5,7 +5,7 @@ Multi-scale Temporal Prediction via Incremental Generation and Multi-agent Colla
 Tested with 2 * NVIDIA H200 Tensor Core GPUs
 
 ```bash
-git clone https://github.com/ioky31/MSTP.git
+git clone https://github.com/jinlab-imvr/MSTP.git
 cd MSTP
 # Create and activate the environment
 conda create -n mstp python=3.10 -y
