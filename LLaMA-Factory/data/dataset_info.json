@@ -1,0 +1,394 @@
+{ 
+  "example":{
+    "file_name": "example.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_1s": {
+    "file_name": "unified_labels_image_train_phase_step_1s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_test_1s": {
+    "file_name": "unified_labels_image_test_phase_step_1s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_test_1s_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_1s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_5s": {
+    "file_name": "unified_labels_image_train_phase_step_5s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_test_5s": {
+    "file_name": "unified_labels_image_test_phase_step_5s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_test_5s_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_5s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_30s": {
+    "file_name": "unified_labels_image_train_phase_step_30s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_test_30s": {
+    "file_name": "unified_labels_image_test_phase_step_30s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_test_30s_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_30s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_60s": {
+    "file_name": "unified_labels_image_train_phase_step_60s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_test_60s": {
+    "file_name": "unified_labels_image_test_phase_step_60s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_test_60s_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_60s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain1_1s_test": {
+    "file_name": "unified_labels_image_test_phase_step_chain_1_1s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain1_1s_test_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_chain_1_1s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+    "GraSP_chain1_1s": {
+    "file_name": "unified_labels_image_train_phase_step_chain_1_1s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain1_5s": {
+    "file_name": "unified_labels_image_train_phase_step_chain_1_5s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain1_5s_test": {
+    "file_name": "unified_labels_image_test_phase_step_chain_1_5s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain1_5s_test_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_chain_1_5s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain1_30s": {
+    "file_name": "unified_labels_image_train_phase_step_chain_1_30s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain1_30s_test": {
+    "file_name": "unified_labels_image_test_phase_step_chain_1_30s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain1_30s_test_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_chain_1_30s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain1_60s": {
+    "file_name": "unified_labels_image_train_phase_step_chain_1_60s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain1_60s_test": {
+    "file_name": "unified_labels_image_test_phase_step_chain_1_60s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain1_60s_test_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_chain_1_60s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain2_1s": {
+    "file_name": "unified_labels_image_train_phase_step_chain_2_1s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain2_1s_test": {
+    "file_name": "unified_labels_image_test_phase_step_chain_2_1s_mix.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain2_1s_test_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_chain_2_1s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain2_5s": {
+    "file_name": "unified_labels_image_train_phase_step_chain_2_5s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain2_5s_test": {
+    "file_name": "unified_labels_image_test_phase_step_chain_2_5s_mix.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain2_5s_test_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_chain_2_5s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain2_30s": {
+    "file_name": "unified_labels_image_train_phase_step_chain_2_30s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain2_30s_test": {
+    "file_name": "unified_labels_image_test_phase_step_chain_2_30s_mix.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain2_30s_test_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_chain_2_30s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain2_60s": {
+    "file_name": "unified_labels_image_train_phase_step_chain_2_60s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain2_60s_test": {
+    "file_name": "unified_labels_image_test_phase_step_chain_2_60s_mix.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain2_60s_test_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_chain_2_60s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain3_1s": {
+    "file_name": "unified_labels_image_train_phase_step_chain_3_1s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain3_1s_test": {
+    "file_name": "unified_labels_image_test_phase_step_chain_3_1s_mix.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain3_1s_test_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_chain_3_1s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain3_5s": {
+    "file_name": "unified_labels_image_train_phase_step_chain_3_5s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain3_5s_test": {
+    "file_name": "unified_labels_image_test_phase_step_chain_3_5s_mix.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain3_5s_test_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_chain_3_5s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain3_30s": {
+    "file_name": "unified_labels_image_train_phase_step_chain_3_30s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain3_30s_test": {
+    "file_name": "unified_labels_image_test_phase_step_chain_3_30s_mix.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain3_30s_test_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_chain_3_30s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain3_60s": {
+    "file_name": "unified_labels_image_train_phase_step_chain_3_60s.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain3_60s_test": {
+    "file_name": "unified_labels_image_test_phase_step_chain_3_60s_mix.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  },
+  "GraSP_chain3_60s_test_restrain": {
+    "file_name": "unified_labels_image_test_phase_step_chain_3_60s_restrain.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "conversations",
+      "images": "images"
+    }
+  }
+}

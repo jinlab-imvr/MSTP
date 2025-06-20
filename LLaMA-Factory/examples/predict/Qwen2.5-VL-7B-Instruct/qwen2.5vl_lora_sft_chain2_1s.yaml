@@ -1,0 +1,20 @@
+### model
+model_name_or_path: LLaMA-Factory/output/Qwen2.5-VL-7B-Instruct_chain2_1s
+
+stage: sft
+do_train: false
+do_eval: false
+do_predict: true
+predict_with_generate: true
+eval_dataset: GraSP_chain2_1s_test
+
+
+template: qwen2_vl 
+cutoff_len: 2048
+max_samples: 10000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+output_dir: LLaMA-Factory/output/Qwen2.5-VL-7B-Instruct/Qwen2.5-VL-7B-Instruct_chain2_1s
+
+per_device_eval_batch_size: 16

@@ -1,0 +1,20 @@
+### model
+model_name_or_path: LLaMA-Factory/pretrained/InternVL3-8B-hf
+adapter_name_or_path: LLaMA-Factory/saves/InternVL3-8B-hf_chain1_1s/lora/sft
+stage: sft
+do_train: false
+do_eval: false
+do_predict: true
+predict_with_generate: true
+eval_dataset: GraSP_chain1_1s_test
+
+
+template: intern_vl 
+cutoff_len: 4096
+max_samples: 10000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+output_dir: LLaMA-Factory/output/InternVL3-8B-hf/InternVL3-8B-hf_chain1_1s.jsonl
+
+per_device_eval_batch_size: 16

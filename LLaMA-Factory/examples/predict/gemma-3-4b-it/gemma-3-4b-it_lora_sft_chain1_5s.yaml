@@ -1,0 +1,20 @@
+### model
+model_name_or_path: LLaMA-Factory/pretrained/gemma-3-4b-it
+adapter_name_or_path: LLaMA-Factory/saves/gemma-3-4b-it_chain1_5s/lora/sft
+stage: sft
+do_train: false
+do_eval: false
+do_predict: true
+predict_with_generate: true
+eval_dataset: GraSP_chain1_5s_test
+
+
+template: gemma3 
+cutoff_len: 2048
+max_samples: 10000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+output_dir: LLaMA-Factory/output/gemma-3-4b-it/gemma-3-4b-it_chain1_5s.jsonl
+
+per_device_eval_batch_size: 12

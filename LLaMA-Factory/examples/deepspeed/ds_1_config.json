@@ -1,0 +1,24 @@
+{
+    "zero_optimization": {
+      "stage": 1
+    },
+    "int8": {
+      "enabled": true
+    },
+    "offload_param": {
+      "device": "cpu",
+      "pin_memory": true
+    },
+    "offload_optimizer": {
+      "device": "cpu"
+    },
+    "tensor_parallelism": {
+    "enabled": true,
+    "tp_size": 2
+    },
+    "train_micro_batch_size_per_gpu": 1,
+    "gradient_accumulation_steps": 1,
+    "pipeline_parallelism": {
+      "enabled": false
+    }
+  }

@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: LLaMA-Factory/pretrained/Qwen2.5-VL-7B-Instruct
+adapter_name_or_path: LLaMA-Factory/saves/Qwen2.5-VL-7B-Instruct_chain2_60s/lora/sft
+template: qwen2_vl
+trust_remote_code: true
+
+### export
+export_dir: LLaMA-Factory/output/Qwen2.5-VL-7B-Instruct_chain2_60s
+export_size: 5
+export_device: cpu  # choices: [cpu, auto]
+export_legacy_format: false
