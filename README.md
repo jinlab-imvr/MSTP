@@ -36,7 +36,7 @@ Select an SD model for incremental generation. Download to the "pretrained" dire
 - [stabilityai/stable-diffusion-3.5-medium](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium)
 
 ## Download Pretrained SD Weights
-Download the weights of the pre-trained SD model that we have trained.
+Download the weights of the pre-trained SD model that we have trained. Download to the "pretrained" directory.
 - [ioky/SD3.5_large](https://huggingface.co/ioky/SD3.5_large)
 - [ioky/SD3.5_medium](https://huggingface.co/ioky/SD3.5_medium)
 
