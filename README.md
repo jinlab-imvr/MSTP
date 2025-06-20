@@ -6,13 +6,12 @@ Tested with 2 * NVIDIA H200 Tensor Core GPUs
 
 ```bash
 git clone https://github.com/jinlab-imvr/MSTP.git
-cd MSTP
+cd MSTP/LLaMA-Factory
 # Create and activate the environment
 conda create -n mstp python=3.10 -y
 conda activate mstp
 
 # Install dependencies
-cd LLaMA-Factory
 pip install -e ".[torch,metrics]" --no-build-isolation
 pip install -r requirements.txt
 
