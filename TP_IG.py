@@ -85,12 +85,15 @@ class VLProcessor:
                     raise ValueError(f"Unsupported model name: {model_name}")
             else:
                 if model_name == "InternVL3-8B-hf" or model_name == "InternVL3-38B-hf":
+                    from transformers import AutoModelForImageTextToText, AutoProcessor
                     self.model = AutoModelForImageTextToText.from_pretrained(base_model_path, device_map=device, torch_dtype=torch.bfloat16)
                     self.processor = AutoProcessor.from_pretrained(base_model_path)
                 elif model_name == "Qwen2.5-VL-7B-Instruct" or model_name == "Qwen2.5-VL-32B-Instruct":
+                    from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
                     self.model = Qwen2_5_VLForConditionalGeneration.from_pretrained(base_model_path, device_map=device, torch_dtype=torch.bfloat16)
                     self.processor = AutoProcessor.from_pretrained(base_model_path)
                 elif model_name == "gemma-3-4b-it" or model_name == "gemma-3-27b-it":
+                    from transformers import Gemma3ForConditionalGeneration, AutoProcessor
                     self.model = Gemma3ForConditionalGeneration.from_pretrained(base_model_path, device_map=device, torch_dtype=torch.bfloat16).eval()
                     self.processor = AutoProcessor.from_pretrained(base_model_path)
         except Exception as e:
@@ -219,7 +222,7 @@ class VLProcessor:
 
 class ImageGenerator:
     def __init__(self, model_path="pretrained/stable-diffusion-3.5-large",
-                 weights_path="SD_grasp/SD3.5_large/diffusion_pytorch_model.safetensors",
+                 weights_path="pretrained/SD3.5_large/diffusion_pytorch_model.safetensors",
                  device="cuda:0"):
         """
         Initialize the ImageGenerator with model and weights paths.
@@ -413,6 +416,7 @@ def parse_args():
     parser.add_argument("--mode", type=str, default="test", choices=["train", "test"], help="Mode: train or test dataset")
     parser.add_argument("--model_name", type=str, default="Qwen2.5-VL-7B-Instruct", choices=["gemma-3-4b-it", "gemma-3-27b-it", "Qwen2.5-VL-7B-Instruct", "Qwen2.5-VL-32B-Instruct", "InternVL3-8B-hf", "InternVL3-38B-hf"],
                         help="Model name to use for processing")
+    parser.add_argument("--data_dir", type=str, default="data", help="Directory containing input data")
     parser.add_argument("--save_dir", type=str, default="DM/test", help="Directory to save results")
     parser.add_argument("--restrain", action="store_true", help="Use restrain prompt (default: False). Set to True to use restrain prompt.")
     return parser.parse_args()
@@ -449,7 +453,7 @@ if __name__ == "__main__":
         model_path = "pretrained/stable-diffusion-3.5-medium" # "stabilityai/stable-diffusion-3.5-medium"
         weights_path = "pretrained/SD3.5_medium/diffusion_pytorch_model.safetensors" # ioky/SD3.5_medium
     generator = ImageGenerator(model_path=model_path, weights_path=weights_path, device="balanced")
-    chain1_path = f"saves/{MODEL_NAME}/{MODEL_NAME}_chain1_{TIME}s/lora/sft"
+    chain1_path = f"LoRA/{MODEL_NAME}/{MODEL_NAME}_chain1_{TIME}s/lora/sft"
     base_model_path = f"pretrained/{MODEL_NAME}"
     vl_processor = VLProcessor(
         model_name=MODEL_NAME,
@@ -458,9 +462,9 @@ if __name__ == "__main__":
         device="auto",
         use_lora=True
     )
-    chain2_path = f"saves/{MODEL_NAME}/{MODEL_NAME}_chain2_{TIME}s/lora/sft"
+    chain2_path = f"LoRA/{MODEL_NAME}/{MODEL_NAME}_chain2_{TIME}s/lora/sft"
     vl_processor2 = VLProcessor(model_name=MODEL_NAME, lora_path=chain2_path, base_model_path=base_model_path, device="auto", use_lora=True)
-    chain3_path = f"saves/{MODEL_NAME}/{MODEL_NAME}_chain3_{TIME}s/lora/sft"
+    chain3_path = f"LoRA/{MODEL_NAME}/{MODEL_NAME}_chain3_{TIME}s/lora/sft"
     vl_processor3 = VLProcessor(model_name=MODEL_NAME, lora_path=chain3_path, base_model_path=base_model_path, device="auto", use_lora=True)
     for i in range(len(data)):
         ori_prompt = data[i]["conversations"][0]["value"].replace("<image>", "")
@@ -468,7 +472,7 @@ if __name__ == "__main__":
             temp_text_prompt = ori_prompt + " . Just answer 'Change' or 'Maintain' without analysis."
         else:
             temp_text_prompt = ori_prompt
-        temp_image_path = data[i]["images"][0]
+        temp_image_path = os.path.join(args.data_dir, data[i]["images"][0])
         case = data[i]["image"].split('/')[3] if "image" in data[i] else totle_case[0]  # Fallback to first case if not found
         
         for j in range(CIR):
