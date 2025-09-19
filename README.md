@@ -34,7 +34,7 @@ pip install -r requirements.txt
 The dataset provided in the article can be downloaded for verification purposes.
 
 We use 8 video frames from the [GraSP](https://github.com/BCV-Uniandes/GraSP) dataset for training and 4 video frames for testing.
-Please run the code [make_augment_all.py](make_augment_all.py) to perform data augmentation. If you want to obtain the processed labels used in the paper, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVumHC4jRMs9IMPbFYjr_mI8_k6ZHCwZCi4a_aER3rq2qCfA/viewform?usp=header) to obtain the link. After obtaining the link, download and extract the compressed file to [here](LLaMA-Factory/data/)
+Please run the code [make_augment_all.py](make_augment_all.py) to perform data augmentation. If you want to obtain the processed labels used in the paper, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVumHC4jRMs9IMPbFYjr_mI8_k6ZHCwZCi4a_aER3rq2qCfA/viewform?usp=header) to obtain the link. After obtaining the link, download and extract the compressed file to [here](LLaMA-Factory/data/).
 If you want to customize the dataset, you can refer to the [instructions](LLaMA-Factory/data/README.md).
 
 
