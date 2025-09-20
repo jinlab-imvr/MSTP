@@ -30,7 +30,7 @@ pip install transformers==4.52
 
 pip install -r requirements.txt
 ```
-## Dataset
+## Constructed Surgical Dataset
 The dataset provided in the article can be downloaded for verification purposes.
 
 We use 8 video frames from the [GraSP](https://github.com/BCV-Uniandes/GraSP) dataset for training and 4 video frames for testing.
