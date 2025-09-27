@@ -5,7 +5,7 @@ Multi-scale Temporal Prediction via Incremental Generation and Multi-agent Colla
 [![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://github.com/jinlab-imvr/MSTP)
 [![GitHub](https://img.shields.io/github/stars/jinlab-imvr/MSTP?style=social)](https://github.com/jinlab-imvr/MSTP)
 
-**[🌐 Project Page]((https://github.com/jinlab-imvr/MSTP)) | [📄 Paper]((https://github.com/jinlab-imvr/MSTP)) **
+**[🌐 Project Page]((https://github.com/jinlab-imvr/MSTP)) | [📄 Paper]((https://arxiv.org/abs/2509.17429)) **
 
 </div>
 
@@ -99,3 +99,9 @@ For further question about the code or paper, welcome to create an issue, or con
 
 ## Citing MSTP
 If you find this code useful for your research, please use the following BibTeX entries:
+@article{zeng2025multi,
+  title={Multi-scale Temporal Prediction via Incremental Generation and Multi-agent Collaboration},
+  author={Zeng, Zhitao and Yuan, Guojian and Mao, Junyuan and Wang, Yuxuan and Jia, Xiaoshuang and Jin, Yueming},
+  journal={arXiv preprint arXiv:2509.17429},
+  year={2025}
+}
