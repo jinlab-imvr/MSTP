@@ -99,9 +99,11 @@ For further question about the code or paper, welcome to create an issue, or con
 
 ## Citing MSTP
 If you find this code useful for your research, please use the following BibTeX entries:
+```bash
 @article{zeng2025multi,
   title={Multi-scale Temporal Prediction via Incremental Generation and Multi-agent Collaboration},
   author={Zeng, Zhitao and Yuan, Guojian and Mao, Junyuan and Wang, Yuxuan and Jia, Xiaoshuang and Jin, Yueming},
   journal={arXiv preprint arXiv:2509.17429},
   year={2025}
 }
+```
