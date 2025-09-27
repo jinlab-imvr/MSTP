@@ -5,7 +5,7 @@ Multi-scale Temporal Prediction via Incremental Generation and Multi-agent Colla
 [![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://github.com/jinlab-imvr/MSTP)
 [![GitHub](https://img.shields.io/github/stars/jinlab-imvr/MSTP?style=social)](https://github.com/jinlab-imvr/MSTP)
 
-**[🌐 Project Page]((https://github.com/jinlab-imvr/MSTP)) | [📄 Paper]((https://arxiv.org/abs/2509.17429)) **
+**[🌐 Project Page](https://github.com/jinlab-imvr/MSTP) | [📄 Paper](https://arxiv.org/abs/2509.17429) **
 
 </div>
 
