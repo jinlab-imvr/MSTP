@@ -53,37 +53,18 @@ If you want to customize the dataset, please refer to the [data instructions](LL
 
 ---
 
-## Download Pretrained Base SD Model
+## Download the Weights of Visual Generation Module
 
-Select a Stable Diffusion (SD) model for incremental generation and download it to the `pretrained` directory:
-
-- [`stabilityai/stable-diffusion-3.5-large`](https://huggingface.co/stabilityai/stable-diffusion-3.5-large)
-- [`stabilityai/stable-diffusion-3.5-medium`](https://huggingface.co/stabilityai/stable-diffusion-3.5-medium)
-
----
-
-## Download Pretrained SD Weights
-
-Download the SD weights we provide (trained on our task) to the `pretrained` directory:
+Download the pretrained **visual generation model weights** (formerly SD weights) we provide, and place them in the `pretrained` directory:
 
 - [`ioky/SD3.5_large`](https://huggingface.co/ioky/SD3.5_large)
 - [`ioky/SD3.5_medium`](https://huggingface.co/ioky/SD3.5_medium)
 
 ---
 
-## Download Pretrained Base VL Model
+## Download the LoRA Weights of Decision-making Module
 
-Select a vision-language (VL) model for multi-scale temporal prediction and download it to the `pretrained` directory:
-
-- [`Qwen/Qwen2.5-VL-7B-Instruct`](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)
-- [`OpenGVLab/InternVL3-8B-hf`](https://huggingface.co/OpenGVLab/InternVL3-8B-hf)
-- [`google/gemma-3-4b-it`](https://huggingface.co/google/gemma-3-4b-it)
-
----
-
-## Download Pretrained LoRA Weights of VL Model
-
-Download the LoRA weights of the VL models we trained to the `LoRA` directory:
+Download the LoRA weights of the pretrained **decision-making models** (formerly VL models) we trained, and place them in the `LoRA` directory:
 
 - [`ioky/Qwen2.5-VL-7B-Instruct`](https://huggingface.co/ioky/Qwen2.5-VL-7B-Instruct)
 - [`ioky/InternVL3-8B-hf`](https://huggingface.co/ioky/InternVL3-8B-hf)
@@ -96,46 +77,53 @@ Download the LoRA weights of the VL models we trained to the `LoRA` directory:
 ```bash
 cd MSTP/LLaMA-Factory
 
-# Use Qwen2.5-VL-7B-Instruct
+# Use Qwen2.5-VL-7B-Instruct as the decision-making model
 python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 \
     --data_dir dir_to_dataset --sd_model large --mode test \
     --model_name Qwen2.5-VL-7B-Instruct
 
-# Use gemma-3-4b-it
+# Use gemma-3-4b-it as the decision-making model
 python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 \
     --data_dir dir_to_dataset --sd_model large --mode test \
     --model_name gemma-3-4b-it
 
-# Use InternVL3-8B-hf
+# Use InternVL3-8B-hf as the decision-making model
 python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 \
     --data_dir dir_to_dataset --sd_model large --mode test \
     --model_name InternVL3-8B-hf
 ```
 
+> Note: `--sd_model` 指的是所选的 **visual generation model**（如 3.5-large / 3.5-medium），  
+> `--model_name` 指的是所选的 **decision-making model**。
+
 ---
 
-## SD Model Training
+## Training of Visual Generation Module
 
-To fine-tune the SD3.5 model, please refer to the official  
+To fine-tune the **SD3.5-based visual generation model**, please refer to the official  
 [Stable Diffusion 3.5 fine-tuning guide](https://stabilityai.notion.site/Stable-Diffusion-3-5-fine-tuning-guide-11a61cdcd1968027a15bdbd7c40be8c6).
 
 ---
 
-## VL Model Training
+## Training of Decision-making Module
 
-This project uses **LoRA** for training.
+This project uses **LoRA** to train the **decision-making models** (formerly VL models).
 
 ```bash
 cd MSTP/LLaMA-Factory
 DISABLE_VERSION_CHECK=1 llamafactory-cli train \
     examples/train_lora/Qwen2.5-VL-7B-Instruct/qwen2.5vl_lora_sft_chain1_1s.yaml
 ```
+```bash
+DISABLE_VERSION_CHECK=1 llamafactory-cli export \
+    examples/merge_lora/Qwen2.5-VL-7B-Instruct/qwen2.5vl_lora_sft_chain1_1s.yaml
+```
 
 ---
 
-## VL Model Validation
+## Validation of MSTP
 
-Generate VL model results in batches:
+Generate decision-making model results in batches:
 
 ```bash
 DISABLE_VERSION_CHECK=1 llamafactory-cli train \
@@ -144,18 +132,9 @@ DISABLE_VERSION_CHECK=1 llamafactory-cli train \
 
 ---
 
-## VL Model Merge
+## Citing Our Work
 
-```bash
-DISABLE_VERSION_CHECK=1 llamafactory-cli export \
-    examples/merge_lora/Qwen2.5-VL-7B-Instruct/qwen2.5vl_lora_sft_chain1_1s.yaml
-```
-
----
-
-## Citing MSTP
-
-If you find this work is useful for your research, please cite:
+If you find this code useful for your research, please cite:
 
 ```bibtex
 @misc{zeng2025multiscaletemporalpredictionincremental,
