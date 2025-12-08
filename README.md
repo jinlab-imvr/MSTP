@@ -11,7 +11,7 @@
 
 ---
 
-## Environment Setup
+### Installation
 
 > Tested with **2 × NVIDIA H200 Tensor Core GPUs**
 
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ---
 
-## Constructed Surgical Dataset
+### Dataset
 
 The dataset provided in the paper can be downloaded for verification.
 
@@ -53,7 +53,7 @@ If you want to customize the dataset, please refer to the [data instructions](LL
 
 ---
 
-## Download the Weights of Visual Generation Module
+### Weights of Visual Generation Module
 
 Download the pretrained **visual generation model weights** (formerly SD weights) we provide, and place them in the `pretrained` directory:
 
@@ -62,7 +62,7 @@ Download the pretrained **visual generation model weights** (formerly SD weights
 
 ---
 
-## Download the LoRA Weights of Decision-making Module
+### LoRA Weights of Decision-making Module
 
 Download the LoRA weights of the pretrained **decision-making models** (formerly VL models) we trained, and place them in the `LoRA` directory:
 
@@ -72,7 +72,7 @@ Download the LoRA weights of the pretrained **decision-making models** (formerly
 
 ---
 
-## Temporal Prediction via Incremental Generation
+### Inference of Temporal Prediction via Incremental Generation
 
 ```bash
 cd MSTP/LLaMA-Factory
@@ -93,19 +93,16 @@ python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 \
     --model_name InternVL3-8B-hf
 ```
 
-> Note: `--sd_model` 指的是所选的 **visual generation model**（如 3.5-large / 3.5-medium），  
-> `--model_name` 指的是所选的 **decision-making model**。
-
 ---
 
-## Training of Visual Generation Module
+### Training of Visual Generation Module
 
 To fine-tune the **SD3.5-based visual generation model**, please refer to the official  
 [Stable Diffusion 3.5 fine-tuning guide](https://stabilityai.notion.site/Stable-Diffusion-3-5-fine-tuning-guide-11a61cdcd1968027a15bdbd7c40be8c6).
 
 ---
 
-## Training of Decision-making Module
+### Training of Decision-making Module
 
 This project uses **LoRA** to train the **decision-making models** (formerly VL models).
 
@@ -121,7 +118,7 @@ DISABLE_VERSION_CHECK=1 llamafactory-cli export \
 
 ---
 
-## Validation of MSTP
+### Validation of MSTP
 
 Generate decision-making model results in batches:
 
@@ -132,7 +129,7 @@ DISABLE_VERSION_CHECK=1 llamafactory-cli train \
 
 ---
 
-## Citing Our Work
+### Citing Our Work
 
 If you find this code useful for your research, please cite:
 
