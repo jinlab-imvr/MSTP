@@ -9,7 +9,7 @@
 
 </div>
 
-Accurate temporal prediction is the bridge between comprehensive scene understanding and embodied artificial intelligence. However, predicting multiple fine-grained states of a scene at multiple temporal scales is difficult for vision-language models. We formalize the **Multi-Scale Temporal Prediction (MSTP) task in surgical and general scenes** by decomposing multi-scale into two orthogonal dimensions.
+Accurate temporal prediction is the bridge between comprehensive scene understanding and embodied artificial intelligence. However, predicting multiple fine-grained states of a scene at multiple temporal scales is difficult for vision-language models. We formalize the **Multi-Scale Temporal Prediction (MSTP) task in surgical and general scenes** by decomposing multi-scale into two orthogonal dimensions. We further propose a method, Incremental Generation and Multi-agent Collaboration to tackle this important and challenging task.
 
 ---
 
