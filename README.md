@@ -48,7 +48,7 @@ The dataset provided in the paper can be downloaded for verification.
 - We use **8 video frames** from the [GraSP](https://github.com/BCV-Uniandes/GraSP) dataset for **training** and **4 video frames** for **testing**.
 - Please run [`make_augment_all.py`](make_augment_all.py) to perform data augmentation.
 - If you want to obtain the processed labels for the MSTP task used in the paper:
-  - Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfVumHC4jRMs9IMPbFYjr_mI8_k6ZHCwZCi4a_aER3rq2qCfA/viewform?usp=header) to obtain the download link.
+  - Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSd1SgP6u5ZCbUKKWqTsaHXnp2-mnggtgz6txDFy5heziCbbsA/viewform?usp=publish-editor) to obtain the download link.
   - After download, extract the compressed file to [`LLaMA-Factory/data/`](LLaMA-Factory/data/).
 
 If you want to customize the dataset, please refer to the [data instructions](LLaMA-Factory/data/README.md).
