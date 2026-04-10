@@ -1,19 +1,42 @@
-# MSTP: Multi-scale Temporal Prediction via Incremental Generation and Multi-agent Collaboration
-
 <div align="center">
-
-[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://github.com/jinlab-imvr/MSTP)
-[![GitHub](https://img.shields.io/github/stars/jinlab-imvr/MSTP?style=social)](https://github.com/jinlab-imvr/MSTP)
-
-**[🌐 Project Page](https://github.com/jinlab-imvr/MSTP) · [📄 Paper](https://arxiv.org/abs/2509.17429)**
-
+  <p><b>Multi-scale Temporal Prediction via Incremental Generation and Multi-agent Collaboration</b></p>
+  <p><i>NeurIPS 2025 Poster</i></p>
 </div>
 
-Accurate temporal prediction is the bridge between comprehensive scene understanding and embodied artificial intelligence. However, predicting multiple fine-grained states of a scene at multiple temporal scales is difficult for vision-language models. We formalize the **Multi-Scale Temporal Prediction (MSTP) task in surgical and general scenes** by decomposing multi-scale into two orthogonal dimensions. We further propose a method, Incremental Generation and Multi-agent Collaboration to tackle this important and challenging task.
+<p align="center">
+  <img src="https://img.shields.io/badge/NeurIPS_2025-Poster-8A2BE2?style=for-the-badge" alt="NeurIPS 2025 Poster" />
+  <img src="https://img.shields.io/badge/🔬_Surgical_Scenes-blue?style=for-the-badge" alt="Surgical Scenes" />
+  <img src="https://img.shields.io/badge/🎥_Multi--Scale-green?style=for-the-badge" alt="Multi-Scale" />
+  <img src="https://img.shields.io/badge/🤖_Multi--Agent-orange?style=for-the-badge" alt="Multi-Agent" />
+  <img src="https://img.shields.io/badge/🖼️_Incremental_Generation-purple?style=for-the-badge" alt="Incremental Generation" />
+  <br><br>
+  <a href="https://arxiv.org/abs/2509.17429"><img src="https://img.shields.io/badge/📄_arXiv-2509.17429-red?style=flat-square" alt="arXiv" /></a>
+  <a href="https://github.com/jinlab-imvr/MSTP"><img src="https://img.shields.io/badge/🌐_Project-Page-green?style=flat-square" alt="Project Page" /></a>
+  <a href="https://github.com/jinlab-imvr/MSTP"><img src="https://img.shields.io/github/stars/jinlab-imvr/MSTP?style=flat-square" alt="GitHub Stars" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square" alt="License" /></a>
+</p>
+
+<p align="center">
+  Accurate temporal prediction is the bridge between comprehensive scene understanding and embodied AI.<br>
+  We formalize the <b>Multi-Scale Temporal Prediction (MSTP)</b> task in surgical and general scenes<br>
+  and propose <b>Incremental Generation</b> and <b>Multi-agent Collaboration</b> to tackle it.
+</p>
 
 ---
 
-### Installation
+## 📝 Contents
+
+- [Installation](#-installation)
+- [Dataset](#-dataset)
+- [Model Weights](#-model-weights)
+- [Inference](#-inference)
+- [Training](#-training)
+- [Validation](#-validation)
+- [Citation](#-citing-our-work)
+
+---
+
+## 🔧 Installation
 
 > Tested with **2 × NVIDIA H200 Tensor Core GPUs**
 
@@ -41,7 +64,7 @@ pip install -r requirements.txt
 
 ---
 
-### Dataset
+## 📦 Dataset
 
 The dataset provided in the paper can be downloaded for verification.
 
@@ -51,68 +74,67 @@ The dataset provided in the paper can be downloaded for verification.
   - Fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSd1SgP6u5ZCbUKKWqTsaHXnp2-mnggtgz6txDFy5heziCbbsA/viewform?usp=publish-editor) to obtain the download link.
   - After download, extract the compressed file to [`LLaMA-Factory/data/`](LLaMA-Factory/data/).
 
-If you want to customize the dataset, please refer to the [data instructions](LLaMA-Factory/data/README.md).
+> If you want to customize the dataset, please refer to the [data instructions](LLaMA-Factory/data/README.md).
 
 ---
 
-### Weights of Visual Generation Module
+## 📥 Model Weights
 
-Download the pretrained **visual generation model weights** (formerly SD weights) we provide, and place them in the `pretrained` directory:
+### Visual Generation Module
 
-- [`ioky/SD3.5_large`](https://huggingface.co/ioky/SD3.5_large)
-- [`ioky/SD3.5_medium`](https://huggingface.co/ioky/SD3.5_medium)
+Download the pretrained **visual generation model weights** and place them in the `pretrained` directory:
+
+| Model | HuggingFace |
+| --- | --- |
+| SD3.5 Large | [`ioky/SD3.5_large`](https://huggingface.co/ioky/SD3.5_large) |
+| SD3.5 Medium | [`ioky/SD3.5_medium`](https://huggingface.co/ioky/SD3.5_medium) |
+
+### Decision-making Module (LoRA Weights)
+
+Download the LoRA weights of the pretrained **decision-making models** and place them in the `LoRA` directory:
+
+| Model | HuggingFace |
+| --- | --- |
+| Qwen2.5-VL-7B-Instruct | [`ioky/Qwen2.5-VL-7B-Instruct`](https://huggingface.co/ioky/Qwen2.5-VL-7B-Instruct) |
+| InternVL3-8B-hf | [`ioky/InternVL3-8B-hf`](https://huggingface.co/ioky/InternVL3-8B-hf) |
+| gemma-3-4b-it | [`ioky/gemma-3-4b-it`](https://huggingface.co/ioky/gemma-3-4b-it) |
 
 ---
 
-### LoRA Weights of Decision-making Module
+## 🚀 Inference
 
-Download the LoRA weights of the pretrained **decision-making models** (formerly VL models) we trained, and place them in the `LoRA` directory:
-
-- [`ioky/Qwen2.5-VL-7B-Instruct`](https://huggingface.co/ioky/Qwen2.5-VL-7B-Instruct)
-- [`ioky/InternVL3-8B-hf`](https://huggingface.co/ioky/InternVL3-8B-hf)
-- [`ioky/gemma-3-4b-it`](https://huggingface.co/ioky/gemma-3-4b-it)
-
----
-
-### Inference of Temporal Prediction via Incremental Generation
+**Temporal Prediction via Incremental Generation**
 
 ```bash
 cd MSTP/LLaMA-Factory
-
-# Use Qwen2.5-VL-7B-Instruct as the decision-making model
-python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 \
-    --data_dir dir_to_dataset --sd_model large --mode test \
-    --model_name Qwen2.5-VL-7B-Instruct
-
-# Use gemma-3-4b-it as the decision-making model
-python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 \
-    --data_dir dir_to_dataset --sd_model large --mode test \
-    --model_name gemma-3-4b-it
-
-# Use InternVL3-8B-hf as the decision-making model
-python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 \
-    --data_dir dir_to_dataset --sd_model large --mode test \
-    --model_name InternVL3-8B-hf
 ```
 
+| Decision-making Model | Command |
+| --- | --- |
+| Qwen2.5-VL-7B-Instruct | `python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name Qwen2.5-VL-7B-Instruct` |
+| gemma-3-4b-it | `python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name gemma-3-4b-it` |
+| InternVL3-8B-hf | `python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name InternVL3-8B-hf` |
+
 ---
 
-### Training of Visual Generation Module
+## 🏋️ Training
 
-To fine-tune the **SD3.5-based visual generation model**, please refer to the official  
-[Stable Diffusion 3.5 fine-tuning guide](https://stabilityai.notion.site/Stable-Diffusion-3-5-fine-tuning-guide-11a61cdcd1968027a15bdbd7c40be8c6).
+### Visual Generation Module
 
----
+To fine-tune the **SD3.5-based visual generation model**, please refer to the official [Stable Diffusion 3.5 fine-tuning guide](https://stabilityai.notion.site/Stable-Diffusion-3-5-fine-tuning-guide-11a61cdcd1968027a15bdbd7c40be8c6).
 
-### Training of Decision-making Module
+### Decision-making Module
 
-This project uses **LoRA** to train the **decision-making models** (formerly VL models).
+This project uses **LoRA** to train the decision-making models.
 
+**Step 1 — Train:**
 ```bash
 cd MSTP/LLaMA-Factory
 DISABLE_VERSION_CHECK=1 llamafactory-cli train \
     examples/train_lora/Qwen2.5-VL-7B-Instruct/qwen2.5vl_lora_sft_chain1_1s.yaml
 ```
+
+**Step 2 — Export (merge LoRA):**
 ```bash
 DISABLE_VERSION_CHECK=1 llamafactory-cli export \
     examples/merge_lora/Qwen2.5-VL-7B-Instruct/qwen2.5vl_lora_sft_chain1_1s.yaml
@@ -120,7 +142,7 @@ DISABLE_VERSION_CHECK=1 llamafactory-cli export \
 
 ---
 
-### Validation of MSTP
+## 📊 Validation
 
 Generate decision-making model results in batches:
 
@@ -131,7 +153,7 @@ DISABLE_VERSION_CHECK=1 llamafactory-cli train \
 
 ---
 
-### Citing Our Work
+## 📖 Citing Our Work
 
 If you find this code useful for your research, please cite:
 
