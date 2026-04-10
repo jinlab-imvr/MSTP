@@ -38,8 +38,6 @@
 
 ## 🔧 Installation
 
-> Tested with **2 × NVIDIA H200 Tensor Core GPUs**
-
 ```bash
 git clone https://github.com/jinlab-imvr/MSTP.git
 cd MSTP/LLaMA-Factory
@@ -105,15 +103,11 @@ Download the LoRA weights of the pretrained **decision-making models** and place
 
 **Temporal Prediction via Incremental Generation**
 
-```bash
-cd MSTP/LLaMA-Factory
-```
-
 | Decision-making Model | Command |
 | --- | --- |
-| Qwen2.5-VL-7B-Instruct | `python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name Qwen2.5-VL-7B-Instruct` |
-| gemma-3-4b-it | `python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name gemma-3-4b-it` |
-| InternVL3-8B-hf | `python ../TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name InternVL3-8B-hf` |
+| Qwen2.5-VL-7B-Instruct | `python TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name Qwen2.5-VL-7B-Instruct` |
+| gemma-3-4b-it | `python TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name gemma-3-4b-it` |
+| InternVL3-8B-hf | `python TP_IG.py --cir 5 --time 1 --start 0 --end 200 --data_dir dir_to_dataset --sd_model large --mode test --model_name InternVL3-8B-hf` |
 
 ---
 
@@ -129,15 +123,12 @@ This project uses **LoRA** to train the decision-making models.
 
 **Step 1 — Train:**
 ```bash
-cd MSTP/LLaMA-Factory
-DISABLE_VERSION_CHECK=1 llamafactory-cli train \
-    examples/train_lora/Qwen2.5-VL-7B-Instruct/qwen2.5vl_lora_sft_chain1_1s.yaml
+llamafactory-cli train examples/train_lora/Qwen2.5-VL-7B-Instruct/qwen2.5vl_lora_sft_chain1_1s.yaml
 ```
 
 **Step 2 — Export (merge LoRA):**
 ```bash
-DISABLE_VERSION_CHECK=1 llamafactory-cli export \
-    examples/merge_lora/Qwen2.5-VL-7B-Instruct/qwen2.5vl_lora_sft_chain1_1s.yaml
+llamafactory-cli export examples/merge_lora/Qwen2.5-VL-7B-Instruct/qwen2.5vl_lora_sft_chain1_1s.yaml
 ```
 
 ---
@@ -147,8 +138,7 @@ DISABLE_VERSION_CHECK=1 llamafactory-cli export \
 Generate decision-making model results in batches:
 
 ```bash
-DISABLE_VERSION_CHECK=1 llamafactory-cli train \
-    examples/predict/Qwen2.5-VL-7B-Instruct/qwen2.5vl_lora_sft_chain1_1s.yaml
+llamafactory-cli train examples/predict/Qwen2.5-VL-7B-Instruct/qwen2.5vl_lora_sft_chain1_1s.yaml
 ```
 
 ---
