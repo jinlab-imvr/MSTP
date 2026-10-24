@@ -312,10 +312,10 @@ class PSDataProcessor:
         
         case_dicts = {}
         for i in data:
-            case = i["image"].split('/')[3]
+            case = extract_case(i["image"])
             case_dicts.setdefault(case, []).append(i)
         
-        totle_ps_list = []
+        totle_ps_dict = {}
         for c in case_dicts.keys():
             ps_dict = {}
             for i in case_dicts[c]:
@@ -324,9 +324,8 @@ class PSDataProcessor:
                 step = text.split("**")[3]
                 key = f"{phase}, {step}".lower()
                 ps_dict.setdefault(key, []).append(text)
-            totle_ps_list.append(ps_dict)
+            totle_ps_dict[c] = ps_dict
         
-        totle_ps_dict = {self.total_cases[self.mode][i]: totle_ps_list[i] for i in range(len(totle_ps_list))}
         return totle_ps_dict
     
     def get_full_text(self, case, ps):
@@ -354,6 +353,14 @@ class Refiner:
                 return closest_key[0]
             return None
 
+def extract_case(image_path):
+    """Read the case ID independently of the image root directory."""
+    for part in str(image_path).replace(chr(92), "/").split("/"):
+        if part.startswith("CASE") and part[4:].isdigit():
+            return part
+    raise ValueError(f"Cannot identify case from image path: {image_path}")
+
+
 # Function to load data and set paths based on mode
 def load_data_and_paths(mode):
     train_data_path = "data/unified_labels_image_train_phase_step.json"
@@ -371,21 +378,20 @@ def load_data_and_paths(mode):
     
     case_dicts = {}
     for i in data:
-        case = i["image"].split('/')[3]
+        case = extract_case(i["image"])
         case_dicts.setdefault(case, []).append(i)
     
-    totle_ps_list = []
+    totle_ps_dict = {}
     for c in case_dicts.keys():
         ps_dict = {}
         for i in case_dicts[c]:
-            case = i["image"].split('/')[3]
+            case = extract_case(i["image"])
             text = i["conversations"][1]["value"]
             phase = text.split("**")[1]
             step = text.split("**")[3]
             ps_dict.setdefault(phase + ', ' + step, []).append(text)
-        totle_ps_list.append(ps_dict)
+        totle_ps_dict[c] = ps_dict
     
-    totle_ps_dict = {totle_case[i]: totle_ps_list[i] for i in range(len(totle_ps_list))}
     return totle_ps_dict, totle_case
 
 # Function to split phases and steps
@@ -435,7 +441,7 @@ if __name__ == "__main__":
     save_dir = os.path.join(args.save_dir, f"{MODEL_NAME}_{TIME}s_{SD_MODEL}")
 
     # Load data and paths
-    data_path = f"data/unified_labels_image_test_phase_step_chain_1_{TIME}s.json"
+    data_path = f"data/unified_labels_image_{MODE}_phase_step_chain_1_{TIME}s.json"
     with open(data_path, "r") as f:
         data = json.load(f)
     
@@ -467,63 +473,65 @@ if __name__ == "__main__":
     chain3_path = f"LoRA/{MODEL_NAME}/{MODEL_NAME}_chain3_{TIME}s/lora/sft"
     vl_processor3 = VLProcessor(model_name=MODEL_NAME, lora_path=chain3_path, base_model_path=base_model_path, device="auto", use_lora=True)
     for i in range(len(data)):
-        ori_prompt = data[i]["conversations"][0]["value"].replace("<image>", "")
-        if RESTRAIN:
-            temp_text_prompt = ori_prompt + " . Just answer 'Change' or 'Maintain' without analysis."
-        else:
-            temp_text_prompt = ori_prompt
+        carried_ps = data[i]["current_ps"].strip()
         temp_image_path = os.path.join(args.data_dir, data[i]["images"][0])
-        case = data[i]["image"].split('/')[3] if "image" in data[i] else totle_case[0]  # Fallback to first case if not found
-        
+        case = extract_case(temp_image_path)
+        if case not in totle_ps_dict:
+            raise ValueError(f"No phase/step vocabulary for {case}")
+        # Completed samples can be skipped; partial samples are replayed from S0/I0.
+        if all(os.path.exists(os.path.join(save_dir, f"{i + START}_{k + 1}.txt")) for k in range(CIR)):
+            continue
+
         for j in range(CIR):
-            if os.path.exists(os.path.join(save_dir, f"{i + START}_{j + CIR}.txt")):
-                break
+            temp_text_prompt = carried_ps
+            if RESTRAIN:
+                temp_text_prompt += " . Just answer 'Change' or 'Maintain' without analysis."
             # Chain 1
             result = vl_processor.generate(temp_image_path, temp_text_prompt)
-            result = result.replace(".", "")
+            result = result.strip().rstrip(".").strip()
             print("Generated Output 1:", result)
             if result == "Maintain":
-                with open(os.path.join(save_dir, f"{i + START}_{j + 1}.txt"), 'w', encoding='utf-8') as file:
-                    file.write(ori_prompt)
-                print("The current phase: Maintain and gt:")
-                continue
+                pre_ps = carried_ps
+            elif result == "Change":
+                current_ps = carried_ps
+                phase = current_ps.split(", ")[0]
+                spilt_ps_dict = spilt_ps(totle_ps_dict, case)
+                totle_p_dict = list(set(spilt_ps_dict.keys()))
+                random_keys = format_shuffled_mcq(totle_p_dict)
             
-            current_ps = data[i]["current_ps"]
-            phase = current_ps.split(", ")[0]
-            spilt_ps_dict = spilt_ps(totle_ps_dict, case)
-            totle_p_dict = list(set(spilt_ps_dict.keys()))
-            random_keys = format_shuffled_mcq(totle_p_dict)
-            
-            # Chain 2
-            if RESTRAIN:
-                text_prompt2 = f"The current phase: {phase}. Choices: {random_keys}. Just answer without analysis, No need for numerical sequence."
-            else:
-                text_prompt2 = f"The current phase: {phase}. Choices: {random_keys}"
+                # Chain 2
+                if RESTRAIN:
+                    text_prompt2 = f"The current phase: {phase}. Choices: {random_keys}. Just answer without analysis, No need for numerical sequence."
+                else:
+                    text_prompt2 = f"The current phase: {phase}. Choices: {random_keys}"
 
-            pre_phase = vl_processor2.generate(temp_image_path, text_prompt2)
-            pre_phase = pre_phase.replace(".", "")
-            print("Generated Output2:", pre_phase)
+                pre_phase = vl_processor2.generate(temp_image_path, text_prompt2)
+                pre_phase = pre_phase.replace(".", "")
+                print("Generated Output2:", pre_phase)
             
-            match = get_close_matches(pre_phase, totle_p_dict, n=1, cutoff=0.4)
-            if match != []:
-                pre_phase = match[0]
-            # Chain 3
-            random_keys = format_shuffled_mcq(spilt_ps_dict.get(pre_phase, []))
-            if RESTRAIN:
-                text = f"{pre_phase}. Choices: {random_keys}. Just answer without analysis, No need for numerical sequence."
+                match = get_close_matches(pre_phase, totle_p_dict, n=1, cutoff=0.4)
+                if match != []:
+                    pre_phase = match[0]
+                # Chain 3
+                random_keys = format_shuffled_mcq(spilt_ps_dict.get(pre_phase, []))
+                if RESTRAIN:
+                    text = f"{pre_phase}. Choices: {random_keys}. Just answer without analysis, No need for numerical sequence."
+                else:
+                    text = f"{pre_phase}. Choices: {random_keys}"
+                pre_step = vl_processor3.generate(temp_image_path, text)
+                pre_step = pre_step.replace(".", "")
+                match = get_close_matches(pre_step, spilt_ps_dict.get(pre_phase, []), n=1, cutoff=0.4)
+                if match!= []:
+                    pre_step = match[0]
+                print("Generated Output3:", pre_step)
+                pre_ps = pre_phase + ", " + pre_step
             else:
-                text = f"{pre_phase}. Choices: {random_keys}"
-            pre_step = vl_processor3.generate(temp_image_path, text)
-            pre_step = pre_step.replace(".", "")
-            match = get_close_matches(pre_step, spilt_ps_dict.get(pre_phase, []), n=1, cutoff=0.4)
-            if match!= []:
-                pre_step = match[0]
-            print("Generated Output3:", pre_step)
-            pre_ps = pre_phase + ", " + pre_step
-            totle_result.append(pre_ps)
-            print("save the result:", pre_ps)
+                raise ValueError(f"Invalid STC output for sample {i + START}, round {j + 1}: {result!r}")
+            carried_ps = pre_ps
+            totle_result.append(carried_ps)
+            print("save the result:", carried_ps)
             with open(os.path.join(save_dir, f"{i + START}_{j + 1}.txt"), 'w', encoding='utf-8') as file:
-                file.write(pre_ps)
+                file.write(carried_ps)
             if j == CIR - 1:
                 continue
             # Image Generation
@@ -539,7 +547,3 @@ if __name__ == "__main__":
             print("Saved to", save_path)
             
             temp_image_path = save_path
-            if RESTRAIN: 
-                temp_text_prompt = pre_ps  + " . Just answer 'Change' or 'Maintain' without analysis."
-            else:
-                temp_text_prompt = pre_ps
